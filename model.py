@@ -2,7 +2,7 @@ import lasagne, theano, numpy as np, logging
 from theano import tensor as T
 
 class DNN(object):
-    param_names = ['activation','n_hidden','drates','opt','lr','norm']
+    param_names = ['activation','n_hidden','drates','opt','lr','norm','n_batch']
 
     def __init__(self, nf, nout, kwargs):
 
@@ -40,11 +40,24 @@ class DNN(object):
         self.train_model = theano.function(
                 inputs=[l_in.input_var, target_output],
                 outputs=cost_train,
-                updates=updates) # , allow_input_downcast=True)
+                updates=updates,
+                allow_input_downcast=True)
         self.predict_model = theano.function(
                 inputs=[l_in.input_var, target_output],
-                outputs=[cost_eval, lasagne.layers.get_output(l_out, deterministic=True)]
-                )
+                outputs=[cost_eval],
+                allow_input_downcast=True)
+
+    def train(self, X, Y):
+        batch_size = self.n_batch
+        offsets = range(0, X.shape[0], batch_size)
+        costs = [self.train_model(X[o:o+batch_size,:], Y[o:o+batch_size,:]) for o in offsets]
+        return np.mean(costs)
+    
+    def predict(self, X, Y):
+        batch_size = self.n_batch
+        offsets = range(0, X.shape[0], batch_size)
+        costs = [self.predict_model(X[o:o+batch_size,:], Y[o:o+batch_size,:]) for o in offsets]
+        return np.mean(costs)
 
 if __name__ == '__main__':
     params = {'activation':'tanh','n_hidden':[100],'drates':[0,0],'opt':'adam','lr':0.1,'norm':5}
