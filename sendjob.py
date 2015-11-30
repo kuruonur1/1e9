@@ -9,7 +9,7 @@ STR = """#!/bin/bash
 #$ -pe smp {}
 #$ -cwd
 #$ -o /dev/null
-#$ -e /dev/null
+#$ -e /mnt/kufs/scratch/{}/1e9/job.err
 #$ -M {}@ku.edu.tr
 #$ -m bea
  
@@ -33,7 +33,7 @@ if __name__ == '__main__':
     queue = args.m.split('-')[0]
     queue = queue if queue == 'biyofiz' else 'all'
 
-    job_text = STR.format(args.d, queue, args.m, args.smp, username, username, args.smp, args.d, args.script, args.script_args)
+    job_text = STR.format(args.d, queue, args.m, args.smp, username, username, username, args.smp, args.d, args.script, args.script_args)
     print job_text
 
     if not args.p:

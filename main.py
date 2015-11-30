@@ -79,8 +79,11 @@ def main_opt():
         trn, dev, tst = dat['trn'], dat['dev'], dat['tst']
     else:
         trn, dev, tst = map(prep.get_dset, ('trn','dev','tst'))
+        OPTS['n_batch'] = [128,256,512]
+        OPTS['hidden'] = [512,1024]
 
     logging.info('loading data done.')
+    logging.info(tabulate([OPTS],headers='keys'))
 
     trnX, trnY = trn[:,NOUT:], trn[:,:NOUT]
     devX, devY = dev[:,NOUT:], dev[:,:NOUT]
