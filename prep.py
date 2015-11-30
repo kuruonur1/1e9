@@ -3,9 +3,10 @@ import random
 import numpy as np
 
 # [(1537882, 600), (10000, 600), (10000, 600)]
+DATA_DIR = '/mnt/kufs/scratch/okuru13/data'
 
 def get_dset(dname):
-    with tarfile.open('/ai/tmp/1e9data.tgz', 'r:gz') as src:
+    with tarfile.open('{}/1e9data.tgz'.format(DATA_DIR), 'r:gz') as src:
         devfile = src.getmember('1e9.p'+dname)
         devf = src.extractfile(devfile)
         return np.loadtxt(devf)

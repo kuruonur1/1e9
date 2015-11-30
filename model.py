@@ -27,8 +27,8 @@ class DNN(object):
         target_output = T.matrix('target_output')
 
 
-        cost_train = T.sum(lasagne.objectives.squared_error(lasagne.layers.get_output(l_out, deterministic=False), target_output))
-        cost_eval = T.sum(lasagne.objectives.squared_error(lasagne.layers.get_output(l_out, deterministic=True), target_output))
+        cost_train = T.mean(lasagne.objectives.squared_error(lasagne.layers.get_output(l_out, deterministic=False), target_output))
+        cost_eval = T.mean(lasagne.objectives.squared_error(lasagne.layers.get_output(l_out, deterministic=True), target_output))
 
         all_params = lasagne.layers.get_all_params(l_out, trainable=True)
         all_grads = T.grad(cost_train, all_params)
@@ -44,20 +44,20 @@ class DNN(object):
                 allow_input_downcast=True)
         self.predict_model = theano.function(
                 inputs=[l_in.input_var, target_output],
-                outputs=[cost_eval],
+                outputs=cost_eval,
                 allow_input_downcast=True)
 
     def train(self, X, Y):
         batch_size = self.n_batch
         offsets = range(0, X.shape[0], batch_size)
         costs = [self.train_model(X[o:o+batch_size,:], Y[o:o+batch_size,:]) for o in offsets]
-        return np.mean(costs)
+        return sum(costs)
     
     def predict(self, X, Y):
         batch_size = self.n_batch
         offsets = range(0, X.shape[0], batch_size)
         costs = [self.predict_model(X[o:o+batch_size,:], Y[o:o+batch_size,:]) for o in offsets]
-        return np.mean(costs)
+        return sum(costs)
 
 if __name__ == '__main__':
     params = {'activation':'tanh','n_hidden':[100],'drates':[0,0],'opt':'adam','lr':0.1,'norm':5}
