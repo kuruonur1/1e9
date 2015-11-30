@@ -98,6 +98,8 @@ def main_opt():
             tcost = dnn.train(trnX, trnY)
             dcost = dnn.predict(devX, devY)
 
+        dcost = np.iinfo(np.int32).max if np.isnan(dcost) else dcost
+
         info = conf.copy()
         info['loss'] = dcost
         del info['dpart']
