@@ -21,7 +21,7 @@ class DNN(object):
 
         self.layers = [cur_layer]
         for n_hidden, drate in zip(self.n_hidden,self.drates[1:]):
-            l_betw = lasagne.layers.DenseLayer(self.layers[-1], num_units=nout, nonlinearity=nonlin)
+            l_betw = lasagne.layers.DenseLayer(self.layers[-1], num_units=n_hidden, nonlinearity=nonlin)
             cur_layer = lasagne.layers.DropoutLayer(l_betw, p=drate) if drate > 0 else l_betw
             self.layers.append(cur_layer)
 
