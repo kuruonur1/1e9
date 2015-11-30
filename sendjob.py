@@ -2,7 +2,7 @@ import argparse, subprocess
 import getpass
 
 STR = """#!/bin/bash
-#$ -N 1e9-{}
+#$ -N a1e9-{}
 #$ -q {}.q@{}
 #$ -S /bin/bash
 ##$ -l h_rt=00:59:00 #how many mins run

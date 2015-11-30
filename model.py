@@ -9,8 +9,11 @@ class DNN(object):
         for pname in DNN.param_names:
             setattr(self, pname, kwargs[pname])
 
-        self.activation = 'rectify' if self.activation == 'relu' else self.activation
-        nonlin = getattr(lasagne.nonlinearities, self.activation)
+        if self.activation == 'elu':
+            nonlin = lambda x: T.switch(x >= 0, x, T.exp(x) - 1)
+        else:
+            self.activation = 'rectify' if self.activation == 'relu' else self.activation
+            nonlin = getattr(lasagne.nonlinearities, self.activation)
         self.opt = getattr(lasagne.updates, self.opt)
 
         l_in = lasagne.layers.InputLayer(shape=(None, nf))
