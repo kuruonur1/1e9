@@ -33,7 +33,7 @@ def setup_logger(args):
     shandler.setLevel(logging.INFO)
     logger.addHandler(shandler);
 
-    if len(args['log']) > 0:
+    if len(args['log']) > 0 and args['log'] != 'nothing':
         ihandler = logging.FileHandler('{}.log'.format(args['log']), mode='w')
         ihandler.setLevel(logging.INFO)
         logger.addHandler(ihandler);
@@ -66,7 +66,7 @@ def main_opt():
     logging.info(tabulate([args],headers='keys',tablefmt='plain'))
 
     OPTS = {
-            'activation' : ['sigmoid','tanh','relu'],
+            'activation' : ['sigmoid','tanh','relu', 'elu'],
             'opt' : ['adam', 'sgd'],
             'n_batch' : [32,64,128,256],
             'hidden' : [128,256],
