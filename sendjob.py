@@ -21,7 +21,7 @@ MKL_NUM_THREADS={} THEANO_FLAGS=mode=FAST_RUN,device={},floatX=float32 python {}
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(prog="creatjob")
     parser.add_argument("--p", action='store_true', help='just print, dont submit') 
-    parser.add_argument("--script", default='main_opt')
+    parser.add_argument("--script", default='main')
     parser.add_argument("--script_args", default='') 
     parser.add_argument("--m", required=True, choices=['biyofiz-4-0','biyofiz-4-1','biyofiz-4-2','biyofiz-4-3','parcore-6-0','iui-5-0'])
     parser.add_argument("--d", required=True, choices=['gpu','cpu','gpu0','gpu1'])
