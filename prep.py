@@ -23,4 +23,6 @@ def prep_toy():
             )
 
 if __name__ == '__main__':
-    prep_toy()
+    dev = get_dset('dev')
+    Y = dev[:,:200]
+    print np.mean(np.sqrt(np.sum(Y**2,axis=1)))

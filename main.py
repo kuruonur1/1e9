@@ -104,7 +104,6 @@ def main_opt():
         info['loss'] = dcost
         del info['dpart']
         logging.info(tabulate([info], headers='keys'))
-        logging.info('')
 
         return {
                 'loss': dcost,
