@@ -30,8 +30,10 @@ class DNN(object):
         target_output = T.matrix('target_output')
 
 
-        cost_train = T.mean(lasagne.objectives.squared_error(lasagne.layers.get_output(l_out, deterministic=False), target_output))/2
-        cost_eval = T.mean(lasagne.objectives.squared_error(lasagne.layers.get_output(l_out, deterministic=True), target_output))/2
+        # cost_train = T.mean(lasagne.objectives.squared_error(lasagne.layers.get_output(l_out, deterministic=False), target_output))
+        cost_train = T.mean(T.sum(lasagne.objectives.squared_error(lasagne.layers.get_output(l_out, deterministic=False), target_output), axis=1) / 2)
+        cost_eval = T.mean(T.sum(lasagne.objectives.squared_error(lasagne.layers.get_output(l_out, deterministic=True), target_output), axis=1) / 2)
+        # cost_eval = T.mean((lasagne.layers.get_output(l_out, deterministic=True)-target_output)**2)
 
         all_params = lasagne.layers.get_all_params(l_out, trainable=True)
         all_grads = T.grad(cost_train, all_params)
@@ -47,7 +49,7 @@ class DNN(object):
                 allow_input_downcast=True)
         self.predict_model = theano.function(
                 inputs=[l_in.input_var, target_output],
-                outputs=cost_eval,
+                outputs=[cost_eval,lasagne.layers.get_output(l_out, deterministic=True)],
                 allow_input_downcast=True)
 
     def train(self, X, Y):
@@ -59,8 +61,10 @@ class DNN(object):
     def predict(self, X, Y):
         batch_size = self.n_batch
         offsets = range(0, X.shape[0], batch_size)
-        costs = [self.predict_model(X[o:o+batch_size,:], Y[o:o+batch_size,:]) for o in offsets]
-        return sum(costs)/len(costs)
+        costsNpreds = [self.predict_model(X[o:o+batch_size,:], Y[o:o+batch_size,:]) for o in offsets]
+        costs = map(lambda x:x[0], costsNpreds)
+        preds = np.vstack(map(lambda x:x[1], costsNpreds))
+        return sum(costs)/len(costs), preds
 
 if __name__ == '__main__':
     params = {'activation':'tanh','n_hidden':[100],'drates':[0,0],'opt':'adam','lr':0.1,'norm':5}

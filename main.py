@@ -17,9 +17,14 @@ def get_arg_parser():
     parser = argparse.ArgumentParser(prog="main")
     
     parser.add_argument("--toy", default=1, type=int, help="toy or real")
-    parser.add_argument("--hepoch", default=10, type=int, help="num of epochs")
+    parser.add_argument("--activation", default='sigmoid', choices=['sigmoid','tanh','relu'])
+    parser.add_argument("--n_hidden", default=[512], nargs='+')
+    parser.add_argument("--drates", default=[0,0], type=float, nargs='+')
+    parser.add_argument("--n_batch", default=128, type=int)
+    parser.add_argument("--opt", default='sgd')
+    parser.add_argument("--lr", default=.1, type=float)
+    parser.add_argument("--norm", default=100, type=float)
     parser.add_argument("--fepoch", default=100, type=int, help="num of epochs")
-    parser.add_argument("--max_evals", default=100, type=int, help="num of configs to try")
     parser.add_argument("--log", default='nothing', help="log file name")
 
     return parser
@@ -39,38 +44,12 @@ def setup_logger(args):
         logger.addHandler(ihandler);
 
 
-def create_space(max_layer_count, opts):
-    MAXL=max_layer_count
-    dpart = [
-        dict(
-            [('h%dm%d'%(l,maxl), hp.choice('h%dm%d'%(l,maxl), opts['hidden'])) for l in range(1,maxl+1)] +
-            [('d%dm%d'%(l,maxl), hp.uniform('d%dm%d'%(l,maxl), 0,1)) for l in range(0,maxl+1)]
-        ) for maxl in range(1,MAXL+1)]
-
-    space = {
-            'activation' : hp.choice('activation', opts['activation']),
-            'lr':hp.uniform('lr',0.001,2),
-            'norm':hp.uniform('norm',0.1,100),
-            'n_batch':hp.choice('n_batch', opts['n_batch']),
-            'opt':hp.choice('opt', opts['opt']),
-            'dpart' : hp.choice('dpart', dpart),
-    }
-    return space
-
-
-def main_opt():
+def main():
     parser = get_arg_parser()
     args = vars(parser.parse_args())
     setup_logger(args)
 
     logging.info(tabulate([args],headers='keys',tablefmt='plain'))
-
-    OPTS = {
-            'activation' : ['sigmoid','tanh','relu', 'elu'],
-            'opt' : ['adam', 'sgd'],
-            'n_batch' : [32,64,128,256],
-            'hidden' : [128,256],
-            }
 
     NF, NOUT = 400, 200
     logging.info('loading data...')
@@ -79,52 +58,25 @@ def main_opt():
         trn, dev, tst = dat['trn'], dat['dev'], dat['tst']
     else:
         trn, dev, tst = map(prep.get_dset, ('trn','dev','tst'))
-        OPTS['n_batch'] = [128,256,512]
-        OPTS['hidden'] = [512,1024]
 
     logging.info('loading data done.')
-    logging.info(tabulate([OPTS],headers='keys'))
 
     trnX, trnY = trn[:,NOUT:], trn[:,:NOUT]
     devX, devY = dev[:,NOUT:], dev[:,:NOUT]
 
-    def objective(conf):
-        conf['n_hidden'] = map(lambda x:x[1], sorted((k,v) for k, v in conf['dpart'].iteritems() if k.startswith('h')))
-        conf['drates'] = map(lambda x:x[1], sorted((k,v) for k, v in conf['dpart'].iteritems() if k.startswith('d')))
 
-        dnn = model.DNN(NF,NOUT,conf)
-
-        for e in range(args['hepoch']):
-            tcost = dnn.train(trnX, trnY)
-            dcost = dnn.predict(devX, devY)
-
-        dcost = np.iinfo(np.int32).max if np.isnan(dcost) else dcost
-
-        info = conf.copy()
-        info['loss'] = dcost
-        del info['dpart']
-        logging.info(tabulate([info], headers='keys'))
-
-        return {
-                'loss': dcost,
-                'status': STATUS_OK,}
-
-    space = create_space(3, OPTS)
-
-    best = fmin(objective,
-            space=space,
-            algo=tpe.suggest,
-            max_evals=args['max_evals'],
-            )
-    logging.info(best)
-    logging.info('')
-    best_params = best2mparams(best, OPTS)
-    logging.info(tabulate([best_params], headers='keys'))
-
-    dnn = model.DNN(NF,NOUT,best_params)
+    dnn = model.DNN(NF,NOUT,args)
     for e in range(args['fepoch']):
         tcost = dnn.train(trnX, trnY)
-        dcost = dnn.predict(devX, devY)
+        dcost, pred = dnn.predict(devX, devY)
+        print 'dcost: {} pred: {} pred avg norm: {} truth avg norm: {}'.format(dcost, pred.shape, np.mean(np.linalg.norm(pred,axis=1)), np.mean(np.linalg.norm(devY,axis=1)))
+        """
+        t, p = devY[5,:], pred[5,:]
+        print t
+        print p
+        print np.sum((t-p)**2)/2
+        break
+        """
 
     logging.info('dcost with best model: {}'.format(dcost))
 
@@ -140,14 +92,6 @@ def best2mparams(best, opts):
     mparams['drates'] = map(lambda x:x[1], sorted((k,v) for k, v in best.iteritems() if k.startswith('d')))
     return mparams
 
-def hp_test():
-    import hyperopt.pyll.stochastic
-    space = create_space(3, OPTS)
-    print space['activation'][2]
-    for e in range(5):
-        space_sample = hyperopt.pyll.stochastic.sample(space)
-        print space_sample 
-
 if __name__ == '__main__':
-    main_opt()
+    main()
 

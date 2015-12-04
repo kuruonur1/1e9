@@ -3,9 +3,19 @@ import random
 import numpy as np
 
 # [(1537882, 600), (10000, 600), (10000, 600)]
-DATA_DIR = '/mnt/kufs/scratch/okuru13/data'
+import socket
+hostname = socket.gethostname().split('.')[0]
+
+if hostname in ['balina','ural','altay']:
+    DATA_DIR = '/ai/home/okuru13/data'
+else:
+    DATA_DIR = '/mnt/kufs/scratch/okuru13/data'
+
 
 def get_dset(dname):
+    return np.loadtxt('{}/1e9.p{}'.format(DATA_DIR,dname))
+
+def get_dset_tar(dname):
     with tarfile.open('{}/1e9data.tgz'.format(DATA_DIR), 'r:gz') as src:
         devfile = src.getmember('1e9.p'+dname)
         devf = src.extractfile(devfile)
