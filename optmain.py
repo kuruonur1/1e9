@@ -1,6 +1,6 @@
 import lasagne, theano, numpy as np, logging
 from theano import tensor as T
-import argparse
+import argparse, os
 from hyperopt import fmin, tpe, hp, STATUS_OK, Trials
 import hyperopt.pyll.stochastic
 from tabulate import tabulate
@@ -60,7 +60,7 @@ def create_space(max_layer_count, opts):
     return space
 
 
-def main_opt():
+def main():
     parser = get_arg_parser()
     args = vars(parser.parse_args())
     setup_logger(args)
@@ -88,6 +88,7 @@ def main_opt():
 
     logging.critical('loading data done.')
     logging.critical(tabulate([OPTS],headers='keys'))
+    logging.critical('')
 
     trnX, trnY = trn[:,NOUT:], trn[:,:NOUT]
     devX, devY = dev[:,NOUT:], dev[:,:NOUT]
@@ -161,5 +162,5 @@ def hp_test():
         print space_sample 
 
 if __name__ == '__main__':
-    main_opt()
+    main()
 
