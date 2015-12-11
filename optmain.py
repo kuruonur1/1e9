@@ -46,12 +46,12 @@ def create_space(max_layer_count, opts):
     dpart = [
         dict(
             [('h%dm%d'%(l,maxl), hp.choice('h%dm%d'%(l,maxl), opts['hidden'])) for l in range(1,maxl+1)] +
-            [('d%dm%d'%(l,maxl), hp.uniform('d%dm%d'%(l,maxl), 0,1)) for l in range(0,maxl+1)]
+            [('d%dm%d'%(l,maxl), hp.uniform('d%dm%d'%(l,maxl), .1,.9)) for l in range(0,maxl+1)]
         ) for maxl in range(1,MAXL+1)]
 
     space = {
             'activation' : hp.choice('activation', opts['activation']),
-            'lr':hp.uniform('lr',.0001,.1),
+            'lr':hp.uniform('lr',.0001,.001),
             'norm':hp.uniform('norm',0.1,100),
             'n_batch':hp.choice('n_batch', opts['n_batch']),
             'opt':hp.choice('opt', opts['opt']),
@@ -69,7 +69,7 @@ def main():
 
     OPTS = {
             'activation' : ['sigmoid','tanh','relu', 'elu'],
-            'opt' : ['adam', 'sgd'],
+            'opt' : ['adam'],
             'n_batch' : [32,64,128,256],
             'hidden' : [128,256],
             # 'n_batch' : [128,256,512],
@@ -84,7 +84,7 @@ def main():
     else:
         trn, dev, tst = map(prep.get_dset, ('trn','dev','tst'))
         OPTS['n_batch'] = [128,256,512]
-        OPTS['hidden'] = [512,1024]
+        OPTS['hidden'] = [512,1024,2048]
 
     logging.critical('loading data done.')
     logging.critical(tabulate([OPTS],headers='keys'))
