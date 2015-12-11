@@ -53,6 +53,7 @@ def create_space(max_layer_count, opts):
             'activation' : hp.choice('activation', opts['activation']),
             'lr':hp.uniform('lr',.0001,.1),
             'norm':hp.uniform('norm',0.1,100),
+            'bnorm':hp.choice('bnorm', opts['bnorm']),
             'n_batch':hp.choice('n_batch', opts['n_batch']),
             'opt':hp.choice('opt', opts['opt']),
             'dpart' : hp.choice('dpart', dpart),
@@ -72,6 +73,7 @@ def main():
             'opt' : ['adam', 'sgd'],
             'n_batch' : [32,64,128,256],
             'hidden' : [128,256],
+            'bnorm' : [0,1],
             # 'n_batch' : [128,256,512],
             # 'hidden' : [512,1024],
             }
@@ -115,7 +117,7 @@ def main():
         info.update(('h%d'%i,nh) for i, nh in enumerate(info['n_hidden'],1))
         info.update(('dr%d'%i,dr) for i, dr in enumerate(info['drates']))
         # map(info.pop, ('dpart','n_hidden','drates'))
-        headers=['loss','n_batch','opt','activation','lr','norm']+ ['h%d'%i for i in range(1,args['max_layers']+1)]+ ['dr%d'%i for i in range(args['max_layers']+1)]
+        headers=['loss','n_batch','opt','activation','lr','norm', 'bnorm']+ ['h%d'%i for i in range(1,args['max_layers']+1)]+ ['dr%d'%i for i in range(args['max_layers']+1)]
         logging.critical(tabulate([map(lambda x:info[x], headers)],headers=headers, floatfmt='.4f'))
 
         return {

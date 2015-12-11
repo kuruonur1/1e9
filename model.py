@@ -1,8 +1,9 @@
 import lasagne, theano, numpy as np, logging
 from theano import tensor as T
+from batch_norm import batch_norm
 
 class DNN(object):
-    param_names = ['activation','n_hidden','drates','opt','lr','norm','n_batch']
+    param_names = ['activation','n_hidden','drates','opt','lr','norm','n_batch','bnorm']
 
     def __init__(self, nf, nout, kwargs):
 
@@ -17,12 +18,14 @@ class DNN(object):
         self.opt = getattr(lasagne.updates, self.opt)
 
         l_in = lasagne.layers.InputLayer(shape=(None, nf))
-        cur_layer = lasagne.layers.DropoutLayer(l_in, p=self.drates[0]) if self.drates[0] > 0 else l_in
+        cur_layer = batch_norm(l_in) if self.bnorm else l_in
+        cur_layer = lasagne.layers.DropoutLayer(cur_layer, p=self.drates[0]) if self.drates[0] > 0 else cur_layer
 
         self.layers = [cur_layer]
         for n_hidden, drate in zip(self.n_hidden,self.drates[1:]):
             l_betw = lasagne.layers.DenseLayer(self.layers[-1], num_units=n_hidden, nonlinearity=nonlin)
-            cur_layer = lasagne.layers.DropoutLayer(l_betw, p=drate) if drate > 0 else l_betw
+            cur_layer = batch_norm(l_betw) if self.bnorm else l_betw
+            cur_layer = lasagne.layers.DropoutLayer(cur_layer, p=drate) if drate > 0 else cur_layer
             self.layers.append(cur_layer)
 
         l_out = lasagne.layers.DenseLayer(self.layers[-1], num_units=nout, nonlinearity=None)

@@ -17,10 +17,11 @@ def get_arg_parser():
     parser = argparse.ArgumentParser(prog="main")
     
     parser.add_argument("--toy", default=1, type=int, help="toy or real")
-    parser.add_argument("--activation", default='sigmoid', choices=['sigmoid','tanh','relu'])
-    parser.add_argument("--n_hidden", default=[512], nargs='+')
+    parser.add_argument("--activation", default='sigmoid', choices=['sigmoid','tanh','relu','elu'])
+    parser.add_argument("--n_hidden", default=[512], type=int, nargs='+')
     parser.add_argument("--drates", default=[0,0], type=float, nargs='+')
     parser.add_argument("--n_batch", default=128, type=int)
+    parser.add_argument("--bnorm", default=0, type=int)
     parser.add_argument("--opt", default='sgd')
     parser.add_argument("--lr", default=.1, type=float)
     parser.add_argument("--norm", default=100, type=float)
