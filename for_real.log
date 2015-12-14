@@ -1,0 +1,833 @@
+  hepoch    max_evals    toy  log         fepoch
+      30          100      0  for_real       100
+loading data...
+loading data done.
+opt              activation                          n_batch          hidden
+---------------  ----------------------------------  ---------------  -----------
+['adam', 'sgd']  ['sigmoid', 'tanh', 'relu', 'elu']  [128, 256, 512]  [512, 1024]
+tpe_transform took 0.011954 seconds
+TPE using 0 trials
+generating trials for new_ids: [0]
+opt       loss  activation    drates                                                                                n_batch        lr  n_hidden              norm
+-----  -------  ------------  ----------------------------------------------------------------------------------  ---------  --------  -----------------  -------
+adam   2101.85  tanh          [0.48093190148436094, 0.6848297385848633, 0.9807641983846155, 0.42310646012446096]        512  0.454476  [512, 1024, 1024]  71.3242
+
+job returned status: ok
+job returned loss: 2101.8500824
+tpe_transform took 0.013350 seconds
+TPE using 1/1 trials with best loss 2101.850082
+generating trials for new_ids: [1]
+opt      loss  activation    drates                                        n_batch       lr  n_hidden      norm
+-----  ------  ------------  ------------------------------------------  ---------  -------  ----------  ------
+adam   423042  relu          [0.18143326541753413, 0.25477224792532105]        512  1.18106  [512]       69.808
+
+job returned status: ok
+job returned loss: 423041.535923
+tpe_transform took 0.012939 seconds
+TPE using 2/2 trials with best loss 2101.850082
+generating trials for new_ids: [2]
+opt       loss  activation    drates                                        n_batch         lr  n_hidden       norm
+-----  -------  ------------  ------------------------------------------  ---------  ---------  ----------  -------
+sgd    6.57412  relu          [0.6195123896958387, 0.023159455557809072]        512  0.0838859  [1024]      98.1992
+
+job returned status: ok
+job returned loss: 6.57412377
+tpe_transform took 0.012442 seconds
+TPE using 3/3 trials with best loss 6.574124
+generating trials for new_ids: [3]
+opt       loss  activation    drates                                      n_batch        lr  n_hidden       norm
+-----  -------  ------------  ----------------------------------------  ---------  --------  ----------  -------
+adam   15.9427  relu          [0.3830457201015457, 0.7477276197510565]        256  0.175725  [1024]      96.4119
+
+job returned status: ok
+job returned loss: 15.9426632524
+tpe_transform took 0.011989 seconds
+TPE using 4/4 trials with best loss 6.574124
+generating trials for new_ids: [4]
+opt       loss  activation    drates                                                             n_batch        lr  n_hidden         norm
+-----  -------  ------------  ---------------------------------------------------------------  ---------  --------  ------------  -------
+sgd    25.2478  elu           [0.4481565856601979, 0.37452859015311857, 0.017802976714647478]        128  0.372745  [1024, 1024]  5.59587
+
+job returned status: ok
+job returned loss: 25.2477803826
+tpe_transform took 0.012896 seconds
+TPE using 5/5 trials with best loss 6.574124
+generating trials for new_ids: [5]
+opt       loss  activation    drates                                                                               n_batch        lr  n_hidden              norm
+-----  -------  ------------  ---------------------------------------------------------------------------------  ---------  --------  -----------------  -------
+adam   48.2222  tanh          [0.33429937148835265, 0.6014424381923764, 0.7905993520222332, 0.6454746004955415]        512  0.263686  [1024, 1024, 512]  89.2127
+
+job returned status: ok
+job returned loss: 48.2222254276
+tpe_transform took 0.011834 seconds
+TPE using 6/6 trials with best loss 6.574124
+generating trials for new_ids: [6]
+opt       loss  activation    drates                                                                                n_batch       lr  n_hidden             norm
+-----  -------  ------------  ----------------------------------------------------------------------------------  ---------  -------  ----------------  -------
+sgd    7.51395  sigmoid       [0.08909037230224182, 0.09739239901236474, 0.8889893296549173, 0.5163392519162776]        512  1.21099  [512, 1024, 512]  47.9685
+
+job returned status: ok
+job returned loss: 7.51395428181
+tpe_transform took 0.011911 seconds
+TPE using 7/7 trials with best loss 6.574124
+generating trials for new_ids: [7]
+opt          loss  activation    drates                                      n_batch       lr  n_hidden       norm
+-----  ----------  ------------  ----------------------------------------  ---------  -------  ----------  -------
+sgd    2147483647  elu           [0.8636274738598244, 0.8520387330735313]        512  1.77147  [1024]      93.1577
+
+job returned status: ok
+job returned loss: 2147483647.0
+tpe_transform took 0.011730 seconds
+TPE using 8/8 trials with best loss 6.574124
+generating trials for new_ids: [8]
+opt       loss  activation    drates                                                          n_batch       lr  n_hidden        norm
+-----  -------  ------------  ------------------------------------------------------------  ---------  -------  -----------  -------
+sgd    13.1886  sigmoid       [0.12287669201524287, 0.602437229858019, 0.6331399100979177]        256  1.16545  [512, 1024]  77.7649
+
+job returned status: ok
+job returned loss: 13.1886334717
+tpe_transform took 0.011964 seconds
+TPE using 9/9 trials with best loss 6.574124
+generating trials for new_ids: [9]
+opt       loss  activation    drates                                                            n_batch       lr  n_hidden        norm
+-----  -------  ------------  --------------------------------------------------------------  ---------  -------  -----------  -------
+sgd    7.24916  sigmoid       [0.008064436586498025, 0.3290568214813019, 0.9815473508604002]        512  1.65745  [512, 1024]  8.31845
+
+job returned status: ok
+job returned loss: 7.24916347861
+tpe_transform took 0.011872 seconds
+TPE using 10/10 trials with best loss 6.574124
+generating trials for new_ids: [10]
+opt       loss  activation    drates                                    n_batch        lr  n_hidden       norm
+-----  -------  ------------  --------------------------------------  ---------  --------  ----------  -------
+sgd    13.5608  tanh          [0.737902839925203, 0.439268134199426]        256  0.220003  [1024]      36.3384
+
+job returned status: ok
+job returned loss: 13.5608147681
+tpe_transform took 0.013011 seconds
+TPE using 11/11 trials with best loss 6.574124
+generating trials for new_ids: [11]
+opt       loss  activation    drates                                      n_batch      lr  n_hidden       norm
+-----  -------  ------------  ----------------------------------------  ---------  ------  ----------  -------
+sgd    6.80554  sigmoid       [0.7430509679888939, 0.4975485718501105]        512  1.4369  [1024]      21.4885
+
+job returned status: ok
+job returned loss: 6.80553993583
+tpe_transform took 0.011966 seconds
+TPE using 12/12 trials with best loss 6.574124
+generating trials for new_ids: [12]
+opt       loss  activation    drates                                                                                n_batch        lr  n_hidden             norm
+-----  -------  ------------  ----------------------------------------------------------------------------------  ---------  --------  ----------------  -------
+sgd    25.1197  elu           [0.07544696279066476, 0.5560452941995557, 0.15203794810142823, 0.2882040777847593]        128  0.372945  [512, 512, 1024]  11.7161
+
+job returned status: ok
+job returned loss: 25.1197112203
+tpe_transform took 0.011872 seconds
+TPE using 13/13 trials with best loss 6.574124
+generating trials for new_ids: [13]
+opt       loss  activation    drates                                                                               n_batch       lr  n_hidden              norm
+-----  -------  ------------  ---------------------------------------------------------------------------------  ---------  -------  -----------------  -------
+sgd    14.3469  sigmoid       [0.333554797840133, 0.040374232347396455, 0.959346163866262, 0.17294144904800002]        256  0.42771  [1024, 1024, 512]  94.4138
+
+job returned status: ok
+job returned loss: 14.3468930721
+tpe_transform took 0.011939 seconds
+TPE using 14/14 trials with best loss 6.574124
+generating trials for new_ids: [14]
+opt          loss  activation    drates                                                           n_batch        lr  n_hidden       norm
+-----  ----------  ------------  -------------------------------------------------------------  ---------  --------  -----------  ------
+adam   2147483647  elu           [0.08895363978920834, 0.8918031692214494, 0.5027030219248629]        128  0.775192  [512, 1024]  50.664
+
+job returned status: ok
+job returned loss: 2147483647.0
+tpe_transform took 0.011863 seconds
+TPE using 15/15 trials with best loss 6.574124
+generating trials for new_ids: [15]
+opt       loss  activation    drates                                                            n_batch        lr  n_hidden       norm
+-----  -------  ------------  --------------------------------------------------------------  ---------  --------  ----------  -------
+adam   186.442  sigmoid       [0.4448986664051149, 0.3940817220849103, 0.029628888350609728]        256  0.648731  [512, 512]  80.8768
+
+job returned status: ok
+job returned loss: 186.442019463
+tpe_transform took 0.011896 seconds
+TPE using 16/16 trials with best loss 6.574124
+generating trials for new_ids: [16]
+opt          loss  activation    drates                                                            n_batch       lr  n_hidden        norm
+-----  ----------  ------------  --------------------------------------------------------------  ---------  -------  -----------  -------
+adam   2147483647  elu           [0.27428565327571375, 0.24169767089383443, 0.2306685469424773]        128  1.86851  [512, 1024]  18.7708
+
+job returned status: ok
+job returned loss: 2147483647.0
+tpe_transform took 0.011998 seconds
+TPE using 17/17 trials with best loss 6.574124
+generating trials for new_ids: [17]
+opt      loss  activation    drates                                        n_batch          lr  n_hidden       norm
+-----  ------  ------------  ------------------------------------------  ---------  ----------  ----------  -------
+adam   6.9753  tanh          [0.3206376523855431, 0.001968502368810743]        512  0.00296857  [1024]      18.3624
+
+job returned status: ok
+job returned loss: 6.97529962659
+tpe_transform took 0.014263 seconds
+TPE using 18/18 trials with best loss 6.574124
+generating trials for new_ids: [18]
+opt       loss  activation    drates                                                         n_batch        lr  n_hidden        norm
+-----  -------  ------------  -----------------------------------------------------------  ---------  --------  -----------  -------
+adam   122.411  tanh          [0.876661396344014, 0.6962466451474415, 0.0504140810136815]        512  0.843351  [1024, 512]  35.6815
+
+job returned status: ok
+job returned loss: 122.410902977
+tpe_transform took 0.012356 seconds
+TPE using 19/19 trials with best loss 6.574124
+generating trials for new_ids: [19]
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    26.2771  elu           [0.3220361230629616, 0.47892537807862645]        128  1.55186  [1024]      37.7174
+
+job returned status: ok
+job returned loss: 26.2771334052
+tpe_transform took 0.013263 seconds
+TPE using 20/20 trials with best loss 6.574124
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    9.06016  relu          [0.6468152414768871, 0.05033443596409365]        512  1.48324  [1024]      58.8638
+
+job returned status: ok
+job returned loss: 9.06016469002
+tpe_transform took 0.013540 seconds
+TPE using 21/21 trials with best loss 6.574124
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    7.63387  relu          [0.9604564576267174, 0.22976913426947998]        512  1.99374  [512]       28.3182
+
+job returned status: ok
+job returned loss: 7.63387322426
+tpe_transform took 0.013495 seconds
+TPE using 22/22 trials with best loss 6.574124
+opt      loss  activation    drates                                      n_batch       lr  n_hidden      norm
+-----  ------  ------------  ----------------------------------------  ---------  -------  ----------  ------
+sgd    226845  relu          [0.5767721123295557, 0.9967946802692657]        512  1.36998  [1024]      26.792
+
+job returned status: ok
+job returned loss: 226845.069092
+tpe_transform took 0.013641 seconds
+TPE using 23/23 trials with best loss 6.574124
+opt       loss  activation    drates                                      n_batch        lr  n_hidden        norm
+-----  -------  ------------  ----------------------------------------  ---------  --------  ----------  --------
+sgd    6.86692  relu          [0.8176434441603475, 0.6673206509608528]        512  0.996028  [1024]      0.440025
+
+job returned status: ok
+job returned loss: 6.8669230938
+tpe_transform took 0.013844 seconds
+TPE using 24/24 trials with best loss 6.574124
+opt       loss  activation    drates                                      n_batch       lr  n_hidden       norm
+-----  -------  ------------  ----------------------------------------  ---------  -------  ----------  -------
+sgd    6.60422  sigmoid       [0.5055051961236411, 0.2490260780148026]        512  1.32226  [512]       58.4915
+
+job returned status: ok
+job returned loss: 6.60421919823
+tpe_transform took 0.012124 seconds
+TPE using 25/25 trials with best loss 6.574124
+opt       loss  activation    drates                                      n_batch       lr  n_hidden       norm
+-----  -------  ------------  ----------------------------------------  ---------  -------  ----------  -------
+sgd    7.51508  relu          [0.4861433044259313, 0.1811666887749112]        512  1.31104  [512]       62.6483
+
+job returned status: ok
+job returned loss: 7.51507988572
+tpe_transform took 0.013616 seconds
+TPE using 26/26 trials with best loss 6.574124
+opt       loss  activation    drates                                        n_batch       lr  n_hidden       norm
+-----  -------  ------------  ------------------------------------------  ---------  -------  ----------  -------
+sgd    6.53634  sigmoid       [0.47416947288978406, 0.10124626216729929]        512  1.02314  [512]       85.9242
+
+job returned status: ok
+job returned loss: 6.53634387255
+tpe_transform took 0.012144 seconds
+TPE using 27/27 trials with best loss 6.536344
+opt       loss  activation    drates                                        n_batch        lr  n_hidden       norm
+-----  -------  ------------  ------------------------------------------  ---------  --------  ----------  -------
+sgd    6.31334  relu          [0.06724058378824765, 0.06766341913907983]        512  0.954815  [512]       85.2389
+
+job returned status: ok
+job returned loss: 6.31333640218
+tpe_transform took 0.012091 seconds
+TPE using 28/28 trials with best loss 6.313336
+opt      loss  activation    drates                                        n_batch        lr  n_hidden       norm
+-----  ------  ------------  ------------------------------------------  ---------  --------  ----------  -------
+sgd    6.5062  sigmoid       [0.27260776783666985, 0.13069318133093175]        512  0.601595  [512]       83.0898
+
+job returned status: ok
+job returned loss: 6.50620120764
+tpe_transform took 0.012286 seconds
+TPE using 29/29 trials with best loss 6.313336
+opt       loss  activation    drates                                                                                n_batch        lr  n_hidden              norm
+-----  -------  ------------  ----------------------------------------------------------------------------------  ---------  --------  -----------------  -------
+sgd    7.51398  relu          [0.9483502670068044, 0.9917370403526189, 0.036158178058880275, 0.9524046218500797]        512  0.565309  [1024, 512, 1024]  72.4693
+
+job returned status: ok
+job returned loss: 7.5139759779
+tpe_transform took 0.013440 seconds
+TPE using 30/30 trials with best loss 6.313336
+opt      loss  activation    drates                                          n_batch        lr  n_hidden       norm
+-----  ------  ------------  --------------------------------------------  ---------  --------  ----------  -------
+sgd    6.4903  sigmoid       [0.0018010045161951371, 0.37382838404211793]        512  0.839198  [512]       69.4929
+
+job returned status: ok
+job returned loss: 6.49029546976
+tpe_transform took 0.012151 seconds
+TPE using 31/31 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch        lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  --------  ----------  -------
+sgd    24.9944  relu          [0.008075461120028389, 0.347520342106178]        128  0.931177  [512]       69.1167
+
+job returned status: ok
+job returned loss: 24.9943940639
+tpe_transform took 0.012043 seconds
+TPE using 32/32 trials with best loss 6.313336
+opt       loss  activation    drates                                        n_batch        lr  n_hidden       norm
+-----  -------  ------------  ------------------------------------------  ---------  --------  ----------  -------
+sgd    12.9136  relu          [0.026156285329107416, 0.5950460262676548]        256  0.730685  [512]       75.1418
+
+job returned status: ok
+job returned loss: 12.9135982394
+tpe_transform took 0.013498 seconds
+TPE using 33/33 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    6.51073  sigmoid       [0.11187403196166418, 0.3651796045203439]        512  1.05095  [512]       67.1509
+
+job returned status: ok
+job returned loss: 6.51072686911
+tpe_transform took 0.013438 seconds
+TPE using 34/34 trials with best loss 6.313336
+opt       loss  activation    drates                                                                               n_batch        lr  n_hidden             norm
+-----  -------  ------------  ---------------------------------------------------------------------------------  ---------  --------  ----------------  -------
+adam   2063.37  tanh          [0.8440979332535352, 0.26117587063398445, 0.4343906084251839, 0.9841308405493816]        512  0.855285  [1024, 512, 512]  50.8402
+
+job returned status: ok
+job returned loss: 2063.37246704
+tpe_transform took 0.013103 seconds
+TPE using 35/35 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    6.47536  relu          [0.12737338249461086, 0.6081868348813065]        512  1.17024  [512]       89.4208
+
+job returned status: ok
+job returned loss: 6.47536060214
+tpe_transform took 0.013753 seconds
+TPE using 36/36 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    13.6463  relu          [0.14166653004642363, 0.8614279240821064]        256  1.23044  [512]       99.2846
+
+job returned status: ok
+job returned loss: 13.6462809741
+tpe_transform took 0.012119 seconds
+TPE using 37/37 trials with best loss 6.313336
+opt      loss  activation    drates                                                                               n_batch       lr  n_hidden             norm
+-----  ------  ------------  ---------------------------------------------------------------------------------  ---------  -------  ----------------  -------
+sgd    29.766  relu          [0.7380424573229372, 0.9725696136572863, 0.5638585542851322, 0.03472503171667729]        128  1.12822  [512, 512, 1024]  88.2568
+
+job returned status: ok
+job returned loss: 29.7659586072
+tpe_transform took 0.013381 seconds
+TPE using 38/38 trials with best loss 6.313336
+opt           loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -----------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+adam   8.62155e+06  relu          [0.22543064349788447, 0.5786326519155028]        512  1.68006  [512]       93.6198
+
+job returned status: ok
+job returned loss: 8621545.50118
+tpe_transform took 0.013479 seconds
+TPE using 39/39 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch        lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  --------  ----------  -------
+sgd    6.61592  relu          [0.09113693327574707, 0.7106915232098407]        512  0.549323  [512]       98.7607
+
+job returned status: ok
+job returned loss: 6.61591750383
+tpe_transform took 0.013603 seconds
+TPE using 40/40 trials with best loss 6.313336
+opt       loss  activation    drates                                                            n_batch       lr  n_hidden       norm
+-----  -------  ------------  --------------------------------------------------------------  ---------  -------  -----------  ------
+sgd    15.1003  relu          [0.9910389240523207, 0.028828742257604678, 0.9122691292317197]        256  1.14576  [1024, 512]  78.599
+
+job returned status: ok
+job returned loss: 15.1003139019
+tpe_transform took 0.013797 seconds
+TPE using 41/41 trials with best loss 6.313336
+opt       loss  activation    drates                                                                                n_batch       lr  n_hidden              norm
+-----  -------  ------------  ----------------------------------------------------------------------------------  ---------  -------  -----------------  -------
+sgd    7.51403  relu          [0.6451482982277212, 0.31437954323075745, 0.29535245624434714, 0.7663420815730422]        512  1.58272  [1024, 512, 1024]  44.3906
+
+job returned status: ok
+job returned loss: 7.5140324533
+tpe_transform took 0.013382 seconds
+TPE using 42/42 trials with best loss 6.313336
+opt      loss  activation    drates                                      n_batch       lr  n_hidden       norm
+-----  ------  ------------  ----------------------------------------  ---------  -------  ----------  -------
+sgd    6.7171  tanh          [0.0841441018511137, 0.8183728515379886]        512  0.69044  [512]       90.9938
+
+job returned status: ok
+job returned loss: 6.71709835529
+tpe_transform took 0.012101 seconds
+TPE using 43/43 trials with best loss 6.313336
+opt       loss  activation    drates                                      n_batch        lr  n_hidden       norm
+-----  -------  ------------  ----------------------------------------  ---------  --------  ----------  -------
+adam   2175.16  relu          [0.4091575944058181, 0.9503771405871696]        128  0.303897  [512]       84.4326
+
+job returned status: ok
+job returned loss: 2175.15952474
+tpe_transform took 0.011954 seconds
+TPE using 44/44 trials with best loss 6.313336
+opt          loss  activation    drates                                                          n_batch         lr  n_hidden        norm
+-----  ----------  ------------  ------------------------------------------------------------  ---------  ---------  -----------  -------
+sgd    2147483647  elu           [0.7732902524688903, 0.9869981651158315, 0.7623977990837134]        256  0.0957789  [1024, 512]  64.4988
+
+job returned status: ok
+job returned loss: 2147483647.0
+tpe_transform took 0.013590 seconds
+TPE using 45/45 trials with best loss 6.313336
+opt       loss  activation    drates                                                                                n_batch       lr  n_hidden             norm
+-----  -------  ------------  ----------------------------------------------------------------------------------  ---------  -------  ----------------  -------
+sgd    7.51401  relu          [0.005274848478797056, 0.8004716846898499, 0.659169982792988, 0.02476430609252922]        512  1.23974  [512, 1024, 512]  54.0526
+
+job returned status: ok
+job returned loss: 7.51401010156
+tpe_transform took 0.011985 seconds
+TPE using 46/46 trials with best loss 6.313336
+opt           loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -----------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+adam   3.42618e+06  relu          [0.21380408392230071, 0.5831820835171274]        512  1.88874  [512]       99.4143
+
+job returned status: ok
+job returned loss: 3426176.62854
+tpe_transform took 0.013771 seconds
+TPE using 47/47 trials with best loss 6.313336
+opt       loss  activation    drates                                                          n_batch        lr  n_hidden        norm
+-----  -------  ------------  ------------------------------------------------------------  ---------  --------  -----------  -------
+sgd    25.9308  tanh          [0.6705962811253385, 0.0352259506725886, 0.2714051710658732]        128  0.949914  [1024, 512]  74.5211
+
+job returned status: ok
+job returned loss: 25.9308449328
+tpe_transform took 0.011896 seconds
+TPE using 48/48 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch        lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  --------  ----------  -------
+sgd    13.2297  elu           [0.16635643168629805, 0.6567266915920421]        256  0.466914  [512]       45.2675
+
+job returned status: ok
+job returned loss: 13.2297246456
+tpe_transform took 0.012603 seconds
+TPE using 49/49 trials with best loss 6.313336
+opt       loss  activation    drates                                                                                 n_batch       lr  n_hidden             norm
+-----  -------  ------------  -----------------------------------------------------------------------------------  ---------  -------  ----------------  -------
+adam   7.78519  relu          [0.9793207733708782, 0.29574634588150156, 0.028512427630894455, 0.7977035155373067]        512  1.72595  [512, 512, 1024]  80.8744
+
+job returned status: ok
+job returned loss: 7.78518867493
+tpe_transform took 0.013004 seconds
+TPE using 50/50 trials with best loss 6.313336
+opt       loss  activation    drates                                      n_batch     lr  n_hidden       norm
+-----  -------  ------------  ----------------------------------------  ---------  -----  ----------  -------
+sgd    6.48113  tanh          [0.03849976718359459, 0.309306784023226]        512  1.427  [512]       88.8734
+
+job returned status: ok
+job returned loss: 6.48112875223
+tpe_transform took 0.013494 seconds
+TPE using 51/51 trials with best loss 6.313336
+opt          loss  activation    drates                                                          n_batch       lr  n_hidden         norm
+-----  ----------  ------------  ------------------------------------------------------------  ---------  -------  ------------  -------
+sgd    2147483647  elu           [0.6221748984789458, 0.7968768009741776, 0.3434463640036227]        128  1.58911  [1024, 1024]  95.9222
+
+job returned status: ok
+job returned loss: 2147483647.0
+tpe_transform took 0.012649 seconds
+TPE using 52/52 trials with best loss 6.313336
+opt      loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  ------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+adam   617342  relu          [0.27178036889785795, 0.7608938735643452]        512  1.09431  [512]       78.6284
+
+job returned status: ok
+job returned loss: 617341.566804
+tpe_transform took 0.012156 seconds
+TPE using 53/53 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch        lr  n_hidden      norm
+-----  -------  ------------  -----------------------------------------  ---------  --------  ----------  ------
+sgd    12.9761  relu          [0.3679047859316592, 0.42888561977668127]        256  0.769479  [512]       57.856
+
+job returned status: ok
+job returned loss: 12.976067096
+tpe_transform took 0.013702 seconds
+TPE using 54/54 trials with best loss 6.313336
+opt       loss  activation    drates                                                            n_batch       lr  n_hidden       norm
+-----  -------  ------------  --------------------------------------------------------------  ---------  -------  ----------  -------
+sgd    6.65459  elu           [0.26863938174399327, 0.19315420244616455, 0.7896917644685512]        512  0.90751  [512, 512]  40.2054
+
+job returned status: ok
+job returned loss: 6.65459477901
+tpe_transform took 0.011972 seconds
+TPE using 55/55 trials with best loss 6.313336
+opt       loss  activation    drates                                      n_batch        lr  n_hidden       norm
+-----  -------  ------------  ----------------------------------------  ---------  --------  ----------  -------
+sgd    6.56547  relu          [0.1919867023708563, 0.6139950034927165]        512  0.473216  [512]       63.5408
+
+job returned status: ok
+job returned loss: 6.56547111273
+tpe_transform took 0.014355 seconds
+TPE using 56/56 trials with best loss 6.313336
+opt       loss  activation    drates                                                                              n_batch       lr  n_hidden              norm
+-----  -------  ------------  --------------------------------------------------------------------------------  ---------  -------  -----------------  -------
+adam   46444.4  tanh          [0.25149998803311924, 0.831507971774448, 0.3268416636140917, 0.2191078326444964]        128  1.79964  [1024, 1024, 512]  30.2648
+
+job returned status: ok
+job returned loss: 46444.4169312
+tpe_transform took 0.011839 seconds
+TPE using 57/57 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    6.70618  relu          [0.08019490728116901, 0.5326303184455133]        512  0.15574  [512]       86.6753
+
+job returned status: ok
+job returned loss: 6.70618140697
+tpe_transform took 0.012183 seconds
+TPE using 58/58 trials with best loss 6.313336
+opt           loss  activation    drates                                      n_batch       lr  n_hidden       norm
+-----  -----------  ------------  ----------------------------------------  ---------  -------  ----------  -------
+sgd    1.42107e+06  relu          [0.4156839711441734, 0.9252782375479083]        512  1.48285  [512]       91.1474
+
+job returned status: ok
+job returned loss: 1421073.91766
+tpe_transform took 0.013619 seconds
+TPE using 59/59 trials with best loss 6.313336
+opt          loss  activation    drates                                                           n_batch       lr  n_hidden        norm
+-----  ----------  ------------  -------------------------------------------------------------  ---------  -------  -----------  -------
+sgd    2147483647  elu           [0.9776940287134239, 0.5530246046376757, 0.49195865016310225]        256  1.35379  [1024, 512]  12.5545
+
+job returned status: ok
+job returned loss: 2147483647.0
+tpe_transform took 0.013786 seconds
+TPE using 60/60 trials with best loss 6.313336
+opt       loss  activation    drates                                      n_batch       lr  n_hidden       norm
+-----  -------  ------------  ----------------------------------------  ---------  -------  ----------  -------
+adam   39.2326  sigmoid       [0.9689763313936183, 0.7618117875693585]        512  1.27103  [512]       54.6088
+
+job returned status: ok
+job returned loss: 39.2326009274
+tpe_transform took 0.013998 seconds
+TPE using 61/61 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    25.2561  relu          [0.2671463667070474, 0.45393591457664173]        128  1.17799  [1024]      73.0799
+
+job returned status: ok
+job returned loss: 25.2560767829
+tpe_transform took 0.013937 seconds
+TPE using 62/62 trials with best loss 6.313336
+opt       loss  activation    drates                                                                                n_batch        lr  n_hidden             norm
+-----  -------  ------------  ----------------------------------------------------------------------------------  ---------  --------  ----------------  -------
+sgd    6.90608  tanh          [0.5486876906195608, 0.40921327537144414, 0.7656940309551266, 0.43826035302076993]        512  0.361515  [1024, 512, 512]  96.5497
+
+job returned status: ok
+job returned loss: 6.90607777238
+tpe_transform took 0.012071 seconds
+TPE using 63/63 trials with best loss 6.313336
+opt       loss  activation    drates                                      n_batch        lr  n_hidden        norm
+-----  -------  ------------  ----------------------------------------  ---------  --------  ----------  --------
+sgd    6.62178  relu          [0.5960855483795796, 0.5197820730641732]        512  0.656957  [512]       0.769932
+
+job returned status: ok
+job returned loss: 6.6217815578
+tpe_transform took 0.012154 seconds
+TPE using 64/64 trials with best loss 6.313336
+opt       loss  activation    drates                                         n_batch       lr  n_hidden       norm
+-----  -------  ------------  -------------------------------------------  ---------  -------  ----------  -------
+sgd    12.7704  sigmoid       [0.13876800977885245, 0.061934491723124055]        256  1.95261  [1024]      66.0622
+
+job returned status: ok
+job returned loss: 12.7704024315
+tpe_transform took 0.012326 seconds
+TPE using 65/65 trials with best loss 6.313336
+opt       loss  activation    drates                                     n_batch       lr  n_hidden       norm
+-----  -------  ------------  ---------------------------------------  ---------  -------  ----------  -------
+sgd    6.47734  tanh          [0.044311111632789, 0.2857099662118205]        512  1.45839  [512]       89.6971
+
+job returned status: ok
+job returned loss: 6.47733846307
+tpe_transform took 0.013595 seconds
+TPE using 66/66 trials with best loss 6.313336
+opt      loss  activation    drates                                        n_batch       lr  n_hidden       norm
+-----  ------  ------------  ------------------------------------------  ---------  -------  ----------  -------
+sgd    6.4418  tanh          [0.007523399292322659, 0.1618675122463924]        512  1.39614  [512]       82.2513
+
+job returned status: ok
+job returned loss: 6.44179663062
+tpe_transform took 0.013506 seconds
+TPE using 67/67 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    6.41036  tanh          [0.3387805394799937, 0.00965703098382903]        512  1.05091  [512]       82.8715
+
+job returned status: ok
+job returned loss: 6.41036310792
+tpe_transform took 0.012015 seconds
+TPE using 68/68 trials with best loss 6.313336
+opt       loss  activation    drates                                        n_batch       lr  n_hidden       norm
+-----  -------  ------------  ------------------------------------------  ---------  -------  ----------  -------
+sgd    6.55443  tanh          [0.6637006452841729, 0.017380771204796586]        512  1.39874  [512]       83.3121
+
+job returned status: ok
+job returned loss: 6.55442911386
+tpe_transform took 0.012206 seconds
+TPE using 69/69 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    6.51695  tanh          [0.3508840615407126, 0.18172137684293638]        512  1.52179  [512]       61.4192
+
+job returned status: ok
+job returned loss: 6.51694777608
+tpe_transform took 0.015093 seconds
+TPE using 70/70 trials with best loss 6.313336
+opt       loss  activation    drates                                         n_batch       lr  n_hidden       norm
+-----  -------  ------------  -------------------------------------------  ---------  -------  ----------  -------
+sgd    6.41659  tanh          [0.5229752278366575, 0.0014768916363710194]        512  1.02507  [1024]      76.6764
+
+job returned status: ok
+job returned loss: 6.41658991575
+tpe_transform took 0.012169 seconds
+TPE using 71/71 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch        lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  --------  ----------  -------
+sgd    6.48733  tanh          [0.5450201329341465, 0.08430883457133129]        512  0.977879  [1024]      75.6039
+
+job returned status: ok
+job returned loss: 6.4873316884
+tpe_transform took 0.012212 seconds
+TPE using 72/72 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch        lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  --------  ----------  -------
+sgd    6.66184  tanh          [0.7197648366828748, 0.21783561275247965]        512  0.804389  [1024]      77.3347
+
+job returned status: ok
+job returned loss: 6.66184467077
+tpe_transform took 0.012128 seconds
+TPE using 73/73 trials with best loss 6.313336
+opt       loss  activation    drates                                         n_batch        lr  n_hidden       norm
+-----  -------  ------------  -------------------------------------------  ---------  --------  ----------  -------
+sgd    6.73358  tanh          [0.8532999317466565, 0.0035067552448692463]        512  0.858143  [1024]      69.8199
+
+job returned status: ok
+job returned loss: 6.73357704282
+tpe_transform took 0.012181 seconds
+TPE using 74/74 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    6.47096  tanh          [0.4394875021057601, 0.13073061676289544]        512  1.04702  [1024]      92.3699
+
+job returned status: ok
+job returned loss: 6.47096467018
+tpe_transform took 0.012191 seconds
+TPE using 75/75 trials with best loss 6.313336
+opt      loss  activation    drates                                      n_batch       lr  n_hidden      norm
+-----  ------  ------------  ----------------------------------------  ---------  -------  ----------  ------
+sgd    6.4569  tanh          [0.523904271941367, 0.05387247571268485]        512  1.09431  [1024]      86.113
+
+job returned status: ok
+job returned loss: 6.45690149069
+tpe_transform took 0.012105 seconds
+TPE using 76/76 trials with best loss 6.313336
+opt       loss  activation    drates                                                           n_batch        lr  n_hidden        norm
+-----  -------  ------------  -------------------------------------------------------------  ---------  --------  -----------  -------
+sgd    6.52202  tanh          [0.2740519042231858, 0.14433696040556165, 0.4499071373344454]        512  0.897095  [512, 1024]  71.6898
+
+job returned status: ok
+job returned loss: 6.52202126384
+tpe_transform took 0.011933 seconds
+TPE using 77/77 trials with best loss 6.313336
+opt      loss  activation    drates                                                                               n_batch        lr  n_hidden              norm
+-----  ------  ------------  ---------------------------------------------------------------------------------  ---------  --------  -----------------  -------
+adam   125105  tanh          [0.20913718038320755, 0.1617096729151592, 0.1726598101599242, 0.8533381038481374]        128  0.725542  [512, 1024, 1024]  66.8106
+
+job returned status: ok
+job returned loss: 125105.329224
+tpe_transform took 0.012628 seconds
+TPE using 78/78 trials with best loss 6.313336
+opt      loss  activation    drates                                       n_batch        lr  n_hidden       norm
+-----  ------  ------------  -----------------------------------------  ---------  --------  ----------  -------
+sgd    6.5637  tanh          [0.6818229298905638, 0.02472628887883427]        512  0.540731  [1024]      80.3417
+
+job returned status: ok
+job returned loss: 6.56369704008
+tpe_transform took 0.012248 seconds
+TPE using 79/79 trials with best loss 6.313336
+opt      loss  activation    drates                                        n_batch       lr  n_hidden       norm
+-----  ------  ------------  ------------------------------------------  ---------  -------  ----------  -------
+sgd    6.4239  tanh          [0.30863645565332964, 0.11199571220192982]        512  1.27942  [1024]      95.0386
+
+job returned status: ok
+job returned loss: 6.42389768362
+tpe_transform took 0.013346 seconds
+TPE using 80/80 trials with best loss 6.313336
+opt       loss  activation    drates                                        n_batch        lr  n_hidden       norm
+-----  -------  ------------  ------------------------------------------  ---------  --------  ----------  -------
+sgd    13.1002  tanh          [0.46144219956853494, 0.21071069507398651]        256  0.622064  [1024]      60.7471
+
+job returned status: ok
+job returned loss: 13.1002010703
+tpe_transform took 0.015140 seconds
+TPE using 81/81 trials with best loss 6.313336
+opt      loss  activation    drates                                                           n_batch       lr  n_hidden         norm
+-----  ------  ------------  -------------------------------------------------------------  ---------  -------  ------------  -------
+adam   7.5303  sigmoid       [0.5606801773634491, 0.9961332183203753, 0.16717122553079844]        512  1.08802  [1024, 1024]  48.1573
+
+job returned status: ok
+job returned loss: 7.53030386567
+tpe_transform took 0.015051 seconds
+TPE using 82/82 trials with best loss 6.313336
+opt          loss  activation    drates                                      n_batch       lr  n_hidden       norm
+-----  ----------  ------------  ----------------------------------------  ---------  -------  ----------  -------
+sgd    2147483647  elu           [0.7259718251005887, 0.2863483122694293]        512  1.20731  [1024]      77.3462
+
+job returned status: ok
+job returned loss: 2147483647.0
+tpe_transform took 0.012109 seconds
+TPE using 83/83 trials with best loss 6.313336
+opt       loss  activation    drates                                                                             n_batch       lr  n_hidden              norm
+-----  -------  ------------  -------------------------------------------------------------------------------  ---------  -------  -----------------  -------
+sgd    27.1899  tanh          [0.815101490751541, 0.42460190558859423, 0.48953979130105074, 0.59084882160754]        128  1.00878  [1024, 1024, 512]  99.7766
+
+job returned status: ok
+job returned loss: 27.1899292171
+tpe_transform took 0.014292 seconds
+TPE using 84/84 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch        lr  n_hidden      norm
+-----  -------  ------------  -----------------------------------------  ---------  --------  ----------  ------
+sgd    6.67058  tanh          [0.7620240687001332, 0.15428882738349428]        512  0.968942  [1024]      56.533
+
+job returned status: ok
+job returned loss: 6.67058253288
+tpe_transform took 0.011947 seconds
+TPE using 85/85 trials with best loss 6.313336
+opt      loss  activation    drates                                         n_batch        lr  n_hidden       norm
+-----  ------  ------------  -------------------------------------------  ---------  --------  ----------  -------
+sgd    12.982  tanh          [0.5540668295321791, 0.0020136452310942996]        256  0.790535  [1024]      68.9006
+
+job returned status: ok
+job returned loss: 12.9820187688
+tpe_transform took 0.013746 seconds
+TPE using 86/86 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch        lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  --------  ----------  -------
+adam   14.8903  sigmoid       [0.6062871398506077, 0.07878529336319252]        512  0.713493  [1024]      51.1982
+
+job returned status: ok
+job returned loss: 14.8902793527
+tpe_transform took 0.274113 seconds
+TPE using 87/87 trials with best loss 6.313336
+opt          loss  activation    drates                                                         n_batch        lr  n_hidden       norm
+-----  ----------  ------------  -----------------------------------------------------------  ---------  --------  ----------  -------
+sgd    2147483647  elu           [0.722203800851204, 0.7306855976086742, 0.6834067372271639]        512  0.897354  [512, 512]  40.8555
+
+job returned status: ok
+job returned loss: 2147483647.0
+tpe_transform took 0.012933 seconds
+TPE using 88/88 trials with best loss 6.313336
+opt       loss  activation    drates                                                                                n_batch        lr  n_hidden             norm
+-----  -------  ------------  ----------------------------------------------------------------------------------  ---------  --------  ----------------  -------
+sgd    27.1665  tanh          [0.47006402237253575, 0.8172083608208176, 0.6438815522712875, 0.32397812847087554]        128  0.506224  [512, 512, 1024]  84.8366
+
+job returned status: ok
+job returned loss: 27.1664943695
+tpe_transform took 0.014241 seconds
+TPE using 89/89 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch        lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  --------  ----------  -------
+sgd    6.52464  tanh          [0.23680599019310983, 0.2424625239055017]        512  0.411605  [512]       87.8102
+
+job returned status: ok
+job returned loss: 6.52464205027
+tpe_transform took 0.012076 seconds
+TPE using 90/90 trials with best loss 6.313336
+opt       loss  activation    drates                                        n_batch       lr  n_hidden       norm
+-----  -------  ------------  ------------------------------------------  ---------  -------  ----------  -------
+adam   368.636  sigmoid       [0.31785205916960213, 0.33620228486440307]        512  1.65553  [512]       32.0159
+
+job returned status: ok
+job returned loss: 368.636000633
+tpe_transform took 0.013851 seconds
+TPE using 91/91 trials with best loss 6.313336
+opt          loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  ----------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    2147483647  elu           [0.7986733201163809, 0.03873705739234475]        256  1.32465  [1024]      74.4297
+
+job returned status: ok
+job returned loss: 2147483647.0
+tpe_transform took 0.012212 seconds
+TPE using 92/92 trials with best loss 6.313336
+opt       loss  activation    drates                                                          n_batch       lr  n_hidden        norm
+-----  -------  ------------  ------------------------------------------------------------  ---------  -------  -----------  -------
+sgd    7.19316  tanh          [0.8717577712930109, 0.8969553324979541, 0.8796037548272064]        512  0.58673  [512, 1024]  25.2959
+
+job returned status: ok
+job returned loss: 7.19316193461
+tpe_transform took 0.013519 seconds
+TPE using 93/93 trials with best loss 6.313336
+opt       loss  activation    drates                                        n_batch        lr  n_hidden       norm
+-----  -------  ------------  ------------------------------------------  ---------  --------  ----------  -------
+sgd    6.43514  relu          [0.41673556398351647, 0.12380724833381462]        512  0.665769  [512]       79.6964
+
+job returned status: ok
+job returned loss: 6.43514162302
+tpe_transform took 0.012058 seconds
+TPE using 94/94 trials with best loss 6.313336
+opt       loss  activation    drates                                                                             n_batch       lr  n_hidden              norm
+-----  -------  ------------  -------------------------------------------------------------------------------  ---------  -------  -----------------  -------
+sgd    26.7639  tanh          [0.6216948692714823, 0.6751741181860398, 0.3533385395220666, 0.628559598541457]        128  1.11463  [1024, 512, 1024]  97.4221
+
+job returned status: ok
+job returned loss: 26.7639130354
+tpe_transform took 0.013358 seconds
+TPE using 95/95 trials with best loss 6.313336
+opt       loss  activation    drates                                      n_batch       lr  n_hidden       norm
+-----  -------  ------------  ----------------------------------------  ---------  -------  ----------  -------
+adam   77.3963  relu          [0.9234894049880089, 0.2029075510330395]        512  1.26517  [512]       93.6408
+
+job returned status: ok
+job returned loss: 77.3962805271
+tpe_transform took 0.013554 seconds
+TPE using 96/96 trials with best loss 6.313336
+opt       loss  activation    drates                                      n_batch        lr  n_hidden       norm
+-----  -------  ------------  ----------------------------------------  ---------  --------  ----------  -------
+sgd    13.3478  elu           [0.6291228844784456, 0.4061030758544387]        256  0.241285  [512]       52.4228
+
+job returned status: ok
+job returned loss: 13.3478316963
+tpe_transform took 0.013633 seconds
+TPE using 97/97 trials with best loss 6.313336
+opt       loss  activation    drates                                     n_batch        lr  n_hidden       norm
+-----  -------  ------------  ---------------------------------------  ---------  --------  ----------  -------
+sgd    6.53554  sigmoid       [0.5013545088247943, 0.146618848594382]        512  0.758628  [1024]      64.5873
+
+job returned status: ok
+job returned loss: 6.53554064035
+tpe_transform took 0.012701 seconds
+TPE using 98/98 trials with best loss 6.313336
+opt       loss  activation    drates                                                            n_batch        lr  n_hidden        norm
+-----  -------  ------------  --------------------------------------------------------------  ---------  --------  -----------  -------
+sgd    6.69171  tanh          [0.39632816264537807, 0.47658051276439933, 0.5962357251531577]        512  0.850073  [1024, 512]  60.5535
+
+job returned status: ok
+job returned loss: 6.69170716405
+tpe_transform took 0.011991 seconds
+TPE using 99/99 trials with best loss 6.313336
+opt       loss  activation    drates                                       n_batch       lr  n_hidden       norm
+-----  -------  ------------  -----------------------------------------  ---------  -------  ----------  -------
+sgd    25.4194  relu          [0.3547451706941138, 0.27465296911974324]        128  1.04576  [512]       82.2878
+
+job returned status: ok
+job returned loss: 25.4194155782
+{'opt': 1, 'activation': 2, 'n_batch': 2, 'lr': 0.9548153055265944, 'norm': 85.23890403037399, 'dpart': 0, 'h1m1': 0, 'd1m1': 0.06766341913907983, 'd0m1': 0.06724058378824765}
+
+opt    activation    drates                                           n_batch        lr  n_hidden       norm
+-----  ------------  ---------------------------------------------  ---------  --------  ----------  -------
+sgd    relu          [0.06724058378824765, 0.06766341913907983, 0]        512  0.954815  [512]       85.2389
+dcost with best model: 6.24572405219

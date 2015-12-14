@@ -1,0 +1,275 @@
+  toy  log                      hepoch    max_layers    fepoch    max_evals
+    0  hepoch:50,bnorm:added        50             3       100          100
+loading data...
+loading data done.
+opt       activation                          n_batch          hidden             bnorm
+--------  ----------------------------------  ---------------  -----------------  -------
+['adam']  ['sigmoid', 'tanh', 'relu', 'elu']  [128, 256, 512]  [512, 1024, 2048]  [0, 1]
+
+tpe_transform took 0.013597 seconds
+TPE using 0 trials
+generating trials for new_ids: [0]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+32.6939        512  adam   sigmoid       0.0005  69.6773        1  2048  1024  2048  0.4847  0.6479  0.8846  0.4385
+job returned status: ok
+job returned loss: 32.6939238548
+tpe_transform took 0.014829 seconds
+TPE using 1/1 trials with best loss 32.693924
+generating trials for new_ids: [1]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+33.8424        256  adam   elu           0.0010  10.6959        0   512   512        0.6344  0.3192  0.4078
+job returned status: ok
+job returned loss: 33.8423921585
+tpe_transform took 0.013812 seconds
+TPE using 2/2 trials with best loss 32.693924
+generating trials for new_ids: [2]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+33.9483        512  adam   tanh          0.0003  50.7219        0   512  2048  1024  0.5624  0.4303  0.5053  0.7308
+job returned status: ok
+job returned loss: 33.948348999
+tpe_transform took 0.014139 seconds
+TPE using 3/3 trials with best loss 32.693924
+generating trials for new_ids: [3]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  -----  -----
+32.0704        512  adam   relu          0.0003  10.6067        0   512              0.3287  0.3515
+job returned status: ok
+job returned loss: 32.0704323769
+tpe_transform took 0.013880 seconds
+TPE using 4/4 trials with best loss 32.070432
+generating trials for new_ids: [4]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+32.3207        512  adam   sigmoid       0.0006  52.4309        0   512  1024        0.6724  0.4531  0.1690
+job returned status: ok
+job returned loss: 32.3207393646
+tpe_transform took 0.013402 seconds
+TPE using 5/5 trials with best loss 32.070432
+generating trials for new_ids: [5]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+34.9391        256  adam   tanh          0.0009  86.6770        0  1024   512  2048  0.5616  0.7294  0.3882  0.3929
+job returned status: ok
+job returned loss: 34.9390730381
+tpe_transform took 0.015411 seconds
+TPE using 6/6 trials with best loss 32.070432
+generating trials for new_ids: [6]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+32.0467        128  adam   sigmoid       0.0007  57.0961        1  1024   512  2048  0.5159  0.1340  0.3155  0.8634
+job returned status: ok
+job returned loss: 32.0466726762
+tpe_transform took 0.014631 seconds
+TPE using 7/7 trials with best loss 32.046673
+generating trials for new_ids: [7]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+35.4063        256  adam   tanh          0.0004  14.2489        0  1024   512  1024  0.8385  0.4800  0.7909  0.7816
+job returned status: ok
+job returned loss: 35.4063345432
+tpe_transform took 0.012828 seconds
+TPE using 8/8 trials with best loss 32.046673
+generating trials for new_ids: [8]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+32.7347        128  adam   elu           0.0002  65.0503        0  1024  2048        0.5819  0.6065  0.1792
+job returned status: ok
+job returned loss: 32.7346935514
+tpe_transform took 0.015095 seconds
+TPE using 9/9 trials with best loss 32.046673
+generating trials for new_ids: [9]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+34.2353        256  adam   sigmoid       0.0005  78.1123        0  2048  1024  1024  0.8387  0.1065  0.3632  0.8852
+job returned status: ok
+job returned loss: 34.2352805138
+tpe_transform took 0.014452 seconds
+TPE using 10/10 trials with best loss 32.046673
+generating trials for new_ids: [10]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  -----  -----
+35.1068        128  adam   tanh          0.0009  42.0089        1   512              0.8640  0.4117
+job returned status: ok
+job returned loss: 35.1068200703
+tpe_transform took 0.570563 seconds
+TPE using 11/11 trials with best loss 32.046673
+generating trials for new_ids: [11]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+35.1404        128  adam   elu           0.0007  81.1592        0  1024   512   512  0.1995  0.6322  0.6693  0.8067
+job returned status: ok
+job returned loss: 35.1403563294
+tpe_transform took 0.014168 seconds
+TPE using 12/12 trials with best loss 32.046673
+generating trials for new_ids: [12]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+33.7411        128  adam   elu           0.0003  66.1668        1   512  2048  2048  0.8442  0.1420  0.8712  0.5165
+job returned status: ok
+job returned loss: 33.741127835
+tpe_transform took 0.014645 seconds
+TPE using 13/13 trials with best loss 32.046673
+generating trials for new_ids: [13]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+34.5772        512  adam   tanh          0.0004  15.4063        1   512  2048        0.8675  0.2384  0.8666
+job returned status: ok
+job returned loss: 34.5772475243
+tpe_transform took 0.014956 seconds
+TPE using 14/14 trials with best loss 32.046673
+generating trials for new_ids: [14]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+33.3786        256  adam   sigmoid       0.0004  94.3906        0  2048  1024  1024  0.7780  0.1712  0.8134  0.5022
+job returned status: ok
+job returned loss: 33.3786411762
+tpe_transform took 0.013203 seconds
+TPE using 15/15 trials with best loss 32.046673
+generating trials for new_ids: [15]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+32.8725        256  adam   sigmoid       0.0004  74.9593        1  2048   512  1024  0.8573  0.4559  0.4153  0.1237
+job returned status: ok
+job returned loss: 32.8725239754
+tpe_transform took 0.013190 seconds
+TPE using 16/16 trials with best loss 32.046673
+generating trials for new_ids: [16]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.9583        128  adam   sigmoid       0.0002  49.1471        1   512  1024        0.3194  0.2934  0.2845
+job returned status: ok
+job returned loss: 30.9582963774
+tpe_transform took 0.014852 seconds
+TPE using 17/17 trials with best loss 30.958296
+generating trials for new_ids: [17]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  -----  -----
+31.7061        512  adam   elu           0.0001  74.8158        0  1024              0.1740  0.3565
+job returned status: ok
+job returned loss: 31.7061450005
+tpe_transform took 0.014843 seconds
+TPE using 18/18 trials with best loss 30.958296
+generating trials for new_ids: [18]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+33.0101        256  adam   elu           0.0004  91.7468        1  1024   512   512  0.8013  0.6570  0.1403  0.2235
+job returned status: ok
+job returned loss: 33.0100808144
+tpe_transform took 0.014996 seconds
+TPE using 19/19 trials with best loss 30.958296
+generating trials for new_ids: [19]
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  -----  -----
+31.6717        128  adam   sigmoid       0.0008  90.2159        1  1024              0.3576  0.4831
+job returned status: ok
+job returned loss: 31.6717481492
+tpe_transform took 0.014179 seconds
+TPE using 20/20 trials with best loss 30.958296
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  -----  -----
+34.1444        128  adam   relu          0.0008  33.2524        1  1024              0.6990  0.8555
+job returned status: ok
+job returned loss: 34.1444235452
+tpe_transform took 0.013877 seconds
+TPE using 21/21 trials with best loss 30.958296
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  -----  -----
+32.2611        128  adam   sigmoid       0.0001  29.8705        1  2048              0.4590  0.7538
+job returned status: ok
+job returned loss: 32.2610757321
+tpe_transform took 0.013989 seconds
+TPE using 22/22 trials with best loss 30.958296
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+33.0694        128  adam   sigmoid       0.0008  27.4027        1  2048  1024        0.1091  0.8479  0.8372
+job returned status: ok
+job returned loss: 33.0693890777
+tpe_transform took 0.013417 seconds
+TPE using 23/23 trials with best loss 30.958296
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.4405        128  adam   sigmoid       0.0007  42.4423        1  1024  1024        0.1932  0.1092  0.5540
+job returned status: ok
+job returned loss: 30.440475995
+tpe_transform took 0.015418 seconds
+TPE using 24/24 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.5957        128  adam   relu          0.0006  42.6120        1  1024  1024        0.2003  0.1067  0.5378
+job returned status: ok
+job returned loss: 30.595664471
+tpe_transform took 0.014998 seconds
+TPE using 25/25 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.6495        128  adam   relu          0.0006  42.5855        1  1024  1024        0.1284  0.1086  0.6110
+job returned status: ok
+job returned loss: 30.6495289863
+tpe_transform took 0.013506 seconds
+TPE using 26/26 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+31.0477        128  adam   relu          0.0007  21.2248        1  1024  1024        0.2955  0.1002  0.6330
+job returned status: ok
+job returned loss: 31.0477084148
+tpe_transform took 0.013525 seconds
+TPE using 27/27 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+31.2539        128  adam   relu          0.0005  37.0772        1  1024   512        0.3049  0.1038  0.5181
+job returned status: ok
+job returned loss: 31.2538589767
+tpe_transform took 0.013554 seconds
+TPE using 28/28 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+32.3476        128  adam   relu          0.0005  58.5877        1  1024  1024        0.1894  0.7379  0.7059
+job returned status: ok
+job returned loss: 32.347592728
+tpe_transform took 0.013592 seconds
+TPE using 29/29 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.5292        128  adam   relu          0.0007  41.1970        1  2048  1024        0.3950  0.2099  0.3877
+job returned status: ok
+job returned loss: 30.5291768569
+tpe_transform took 0.013989 seconds
+TPE using 30/30 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr    norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  ------  -------  ----  ----  ----  ------  ------  ------  -----
+30.8842        128  adam   relu          0.0009  5.6264        1  2048  1024        0.4437  0.4439  0.3736
+job returned status: ok
+job returned loss: 30.8841545008
+tpe_transform took 0.015460 seconds
+TPE using 31/31 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.5634        128  adam   relu          0.0007  25.6135        1  2048  2048        0.4255  0.2331  0.3958
+job returned status: ok
+job returned loss: 30.5633614456
+tpe_transform took 0.013601 seconds
+TPE using 32/32 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+32.1956        512  adam   relu          0.0007  99.6644        1  2048   512        0.4065  0.2134  0.7358
+job returned status: ok
+job returned loss: 32.1955546379
+tpe_transform took 0.013490 seconds
+TPE using 33/33 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr    norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  ------  -------  ----  ----  ----  ------  ------  ------  -----
+30.6187        512  adam   sigmoid       0.0010  2.2354        1  2048  1024        0.5228  0.3795  0.2641
+job returned status: ok
+job returned loss: 30.6187084198
+tpe_transform took 0.015446 seconds
+TPE using 34/34 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+33.6912        128  adam   tanh          0.0009  48.2915        1  2048  1024        0.7568  0.5797  0.4288
+job returned status: ok
+job returned loss: 33.6911979627
+tpe_transform took 0.015355 seconds
+TPE using 35/35 trials with best loss 30.440476
