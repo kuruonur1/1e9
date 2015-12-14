@@ -67,9 +67,11 @@ def main():
 
 
     dnn = model.DNN(NF,NOUT,args)
+    costs = []
     for e in range(args['fepoch']):
         tcost = dnn.train(trnX, trnY)
         dcost, pred = dnn.predict(devX, devY)
+        costs.append(dcost)
         print 'dcost: {} pred: {} pred avg norm: {} truth avg norm: {}'.format(dcost, pred.shape, np.mean(np.linalg.norm(pred,axis=1)), np.mean(np.linalg.norm(devY,axis=1)))
         """
         t, p = devY[5,:], pred[5,:]
@@ -79,7 +81,7 @@ def main():
         break
         """
 
-    logging.info('dcost with best model: {}'.format(dcost))
+    logging.info('dcost with best model: {}'.format(min(costs)))
 
 
 def best2mparams(best, opts):

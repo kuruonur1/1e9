@@ -273,3 +273,10 @@ job returned status: ok
 job returned loss: 33.6911979627
 tpe_transform took 0.015355 seconds
 TPE using 35/35 trials with best loss 30.440476
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.1710        128  adam   relu          0.0006  21.7970        1  2048  1024        0.2561  0.2009  0.2914
+job returned status: ok
+job returned loss: 30.1709671021
+tpe_transform took 0.015354 seconds
+TPE using 36/36 trials with best loss 30.170967
