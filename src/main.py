@@ -40,7 +40,7 @@ def setup_logger(args):
     logger.addHandler(shandler);
 
     if len(args['log']) > 0 and args['log'] != 'nothing':
-        ihandler = logging.FileHandler('{}.log'.format(args['log']), mode='w')
+        ihandler = logging.FileHandler('logs/{}.log'.format(args['log']), mode='w')
         ihandler.setLevel(logging.INFO)
         logger.addHandler(ihandler);
 
@@ -55,7 +55,7 @@ def main():
     NF, NOUT = 400, 200
     logging.info('loading data...')
     if args['toy']:
-        dat = np.load('toy.npz')
+        dat = np.load('data/toy.npz')
         trn, dev, tst = dat['trn'], dat['dev'], dat['tst']
     else:
         trn, dev, tst = map(prep.get_dset, ('trn','dev','tst'))
