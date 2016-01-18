@@ -1,0 +1,5 @@
+opt      toy  log              activation    drates              n_batch    bnorm      lr    fepoch  n_hidden        norm
+adam       0  best_model_main  relu          [0.25, 0.2, 0.3]        128        1  0.0006       500  [2048, 1024]      21
+loading data...
+loading data done.
+dcost with best model: 29.9594800925

@@ -280,3 +280,654 @@ job returned status: ok
 job returned loss: 30.1709671021
 tpe_transform took 0.015354 seconds
 TPE using 36/36 trials with best loss 30.170967
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+29.8415        512  adam   sigmoid       0.0006  20.5658        1  1024  1024        0.2281  0.1497  0.1082
+job returned status: ok
+job returned loss: 29.8415228844
+tpe_transform took 0.013932 seconds
+TPE using 37/37 trials with best loss 29.841523
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+29.6283        512  adam   sigmoid       0.0004  20.6219        1  2048  2048        0.2497  0.3557  0.2201
+job returned status: ok
+job returned loss: 29.6282924652
+tpe_transform took 0.015401 seconds
+TPE using 38/38 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr    norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  ------  -------  ----  ----  ----  ------  ------  ------  -----
+30.0986        512  adam   sigmoid       0.0004  7.1630        0  1024  2048        0.1205  0.5592  0.1139
+job returned status: ok
+job returned loss: 30.0986042976
+tpe_transform took 0.014562 seconds
+TPE using 39/39 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr    norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  ------  -------  ----  ----  ----  ------  ------  -----  -----
+34.1564        512  adam   sigmoid       0.0002  0.5368        1  2048              0.8996  0.1364
+job returned status: ok
+job returned loss: 34.1564433098
+tpe_transform took 0.015954 seconds
+TPE using 40/40 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.7815        512  adam   sigmoid       0.0005  17.8692        0  1024  2048        0.3502  0.3584  0.1640
+job returned status: ok
+job returned loss: 30.781521225
+tpe_transform took 0.016692 seconds
+TPE using 41/41 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.8879        512  adam   sigmoid       0.0004  34.1216        1  2048  2048        0.4972  0.6734  0.2175
+job returned status: ok
+job returned loss: 30.8878777504
+tpe_transform took 0.013828 seconds
+TPE using 42/42 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  -----  -----
+32.1831        512  adam   tanh          0.0003  11.1894        1   512              0.1028  0.1274
+job returned status: ok
+job returned loss: 32.1830553055
+tpe_transform took 0.016369 seconds
+TPE using 43/43 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.2194        512  adam   sigmoid       0.0005  54.7835        0  1024  2048        0.2222  0.4206  0.1020
+job returned status: ok
+job returned loss: 30.2194115639
+tpe_transform took 0.015873 seconds
+TPE using 44/44 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+31.7030        512  adam   sigmoid       0.0002  11.3294        1   512  2048   512  0.1927  0.2847  0.1345  0.6294
+job returned status: ok
+job returned loss: 31.7030211449
+tpe_transform took 0.013439 seconds
+TPE using 45/45 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+32.2366        512  adam   elu           0.0007  21.6299        0  2048  2048        0.1591  0.5078  0.1093
+job returned status: ok
+job returned loss: 32.236566925
+tpe_transform took 0.015374 seconds
+TPE using 46/46 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+32.6796        512  adam   tanh          0.0003  59.9575        1   512   512        0.2522  0.2914  0.3361
+job returned status: ok
+job returned loss: 32.6796281815
+tpe_transform took 0.013532 seconds
+TPE using 47/47 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+33.3902        256  adam   sigmoid       0.0006  16.5718        1   512  2048   512  0.3668  0.8976  0.6326  0.2462
+job returned status: ok
+job returned loss: 33.3902205944
+tpe_transform took 0.013423 seconds
+TPE using 48/48 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr    norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  ------  -------  ----  ----  ----  ------  ------  -----  -----
+33.8132        512  adam   elu           0.0004  6.0061        0  2048              0.6796  0.6702
+job returned status: ok
+job returned loss: 33.8131973267
+tpe_transform took 0.014061 seconds
+TPE using 49/49 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.3124        512  adam   sigmoid       0.0005  36.9442        1  2048  2048        0.4906  0.1865  0.4622
+job returned status: ok
+job returned loss: 30.3123682976
+tpe_transform took 0.013166 seconds
+TPE using 50/50 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+34.2314        256  adam   sigmoid       0.0007  29.8143        1   512  1024   512  0.6504  0.8816  0.2177  0.6532
+job returned status: ok
+job returned loss: 34.231416893
+tpe_transform took 0.014647 seconds
+TPE using 51/51 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+32.9875        512  adam   tanh          0.0008  65.1829        0   512   512        0.3649  0.3379  0.2162
+job returned status: ok
+job returned loss: 32.9874733925
+tpe_transform took 0.016438 seconds
+TPE using 52/52 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  -----  -----
+33.3680        512  adam   sigmoid       0.0005  47.6407        1  1024              0.7208  0.6622
+job returned status: ok
+job returned loss: 33.3679712296
+tpe_transform took 0.015893 seconds
+TPE using 53/53 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+30.9350        256  adam   elu           0.0006  25.7394        1  2048  2048  2048  0.3439  0.3183  0.6288  0.3189
+job returned status: ok
+job returned loss: 30.9349553108
+tpe_transform took 0.014614 seconds
+TPE using 54/54 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr    norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  ------  -------  ----  ----  ----  ------  ------  ------  -----
+30.9989        512  adam   sigmoid       0.0007  1.6049        1  1024  2048        0.6486  0.1581  0.3353
+job returned status: ok
+job returned loss: 30.9988926888
+tpe_transform took 0.013686 seconds
+TPE using 55/55 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+31.9862        512  adam   sigmoid       0.0002  13.5227        0   512   512        0.5839  0.5006  0.1430
+job returned status: ok
+job returned loss: 31.9861616135
+tpe_transform took 0.016021 seconds
+TPE using 56/56 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  -----  -----
+33.2522        512  adam   tanh          0.0005  72.2876        1   512              0.5390  0.2264
+job returned status: ok
+job returned loss: 33.252221489
+tpe_transform took 0.013676 seconds
+TPE using 57/57 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr    norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  ------  -------  ----  ----  ----  ------  ------  ------  -----
+31.6401        256  adam   elu           0.0008  8.9528        1  1024  2048        0.2698  0.2901  0.2277
+job returned status: ok
+job returned loss: 31.6401079655
+tpe_transform took 0.013302 seconds
+TPE using 58/58 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+31.6819        512  adam   sigmoid       0.0003  31.9904        1  2048  1024  1024  0.1296  0.8161  0.5155  0.6056
+job returned status: ok
+job returned loss: 31.6818740845
+tpe_transform took 0.013356 seconds
+TPE using 59/59 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+32.4941        512  adam   sigmoid       0.0002  38.5448        0  2048  2048        0.7503  0.4045  0.1805
+job returned status: ok
+job returned loss: 32.4940839767
+tpe_transform took 0.013503 seconds
+TPE using 60/60 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1    dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  -----  -----
+32.7606        256  adam   sigmoid       0.0008  81.9708        1  2048              0.2469  0.8700
+job returned status: ok
+job returned loss: 32.7606293201
+tpe_transform took 0.015241 seconds
+TPE using 61/61 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+34.2164        512  adam   elu           0.0003  60.7242        1   512  2048        0.8930  0.1489  0.3091
+job returned status: ok
+job returned loss: 34.2164300919
+tpe_transform took 0.012991 seconds
+TPE using 62/62 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+31.9824        512  adam   tanh          0.0004  53.5890        1  1024   512        0.3408  0.2730  0.1010
+job returned status: ok
+job returned loss: 31.9824250221
+tpe_transform took 0.013820 seconds
+TPE using 63/63 trials with best loss 29.628292
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpXu0sac/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpZT2hiX/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpwFsvxB/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp6hsA9C/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpqkbq0G/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpSMaGiw/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpHTRbsM/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpmdUWRC/4d3d8597a008ddbfd9b22ab24ce9dcb3.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpmdUWRC/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpFu_f8B/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpWg4UTG/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpGKAuvH/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmprnbNoz/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpiEvxMG/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpe3cJdD/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpqbrO8c/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp3rSBQc/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpoZcoqf/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp3djwyP/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpkRVloq/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpUGsEko/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpjNFfcz/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpwkSQpj/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmplc8765/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp_Mu0UZ/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpLCw8n_/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp6H3pLY/18d5a8a6a9092d5ba63e47774ced3130.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp6H3pLY/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpO9HtUe/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpSX6YKp/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpMSfpBS/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpZaSZjc/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpWwLHl5/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpVI155T/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmppdOotr/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpjPzlcS/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpuroZkV/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpM0R6wC/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpLMW_mb/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpBzXnM_/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpFTD9_F/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpc7n59t/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpN2DSPj/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpLVd52X/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmps9OHzw/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpc6Mgu5/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpS028EX/00881aa48025ae020af362baaf369a6a.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpS028EX/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpGPOoQa/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpwiSkDN/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpgVjkuD/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpHx58ss/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpbfh9BR/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpu_iGl0/57e1a1351ad6c79e6adb7c3af0c73913.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpu_iGl0/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpgHIUac/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpgifL4S/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpaPrwgd/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpwdHrA1/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpS9BzRm/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpLoW8he/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpV1v_SI/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpji_Ksh/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpS6EQJd/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpdW_yQI/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp8psnXP/148b94d5eb952028cd2f2513be6d4104.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp8psnXP/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpA_6NYK/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpkq5MhB/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmprxLmEz/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpdES2pE/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpuBCs7s/e0b28ec03e051f80e055d0173c808bbb.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpuBCs7s/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp8FyTt9/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpyR8TFa/c07737f1d301ae23e9d459b32aa6f2b5.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpyR8TFa/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpHRcLAj/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpv30bo4/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp2hNB7k/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpUh1jpn/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp5UqpqD/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpS3mvA6/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpQfWirO/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpjHGzZs/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpT79Url/667be2a3a1d8e89cf731c0f6811d7068.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpT79Url/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp5TXYlE/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpkDqZqS/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp2ZlARs/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmppQbrap/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp65UgC7/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpC_n1T5/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpcVt9cG/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpKUhMK7/51382dfeb64b0f31eb733829604bd472.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpKUhMK7/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpDJfBzu/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpmR_qOx/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpZwUdVv/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpavCSRa/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpVBiegx/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmplyKPaW/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmprY_bdv/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmptjU3eE/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpWKpfZL/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp0tRcGD/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpSs3YgT/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpz2Psf8/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpozTyfJ/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpV1uVlV/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpDSX0p_/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpOTmMuK/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpb_0Efv/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpUMKAFD/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp5FlECC/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpX9lT24/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpQSvXAa/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpVIZsVm/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpSRaLXz/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpxANRf1/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmptAfaiH/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpmHQCHo/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpTONJf4/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp33tfoE/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpc6Y_cd/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpGxvzfa/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpkYcHJ4/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpdvs9D0/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp7epJtu/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmppM1W4v/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpI48Dei/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpnyODMs/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp3tat_t/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpKqrgbw/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpqFoZMo/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpRsjx12/cb9c14081688ef216a5ca8a333690808.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpRsjx12/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpTRCvWM/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpbn6Sa4/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpJZGqsU/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpZVKdtx/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpBSm3Mm/68e868b4dd3209b43f86908b7d067d55.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpBSm3Mm/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpYKtnDN/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpQhSslf/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpK6p4wh/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpZtIQ0P/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpbXF0Xt/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpRWRrm7/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpzIKtgl/efe2597f25fd5dac4d6e6d2de4558585.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpzIKtgl/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpetyp1f/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpjsb7D5/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpKgiL95/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpgGPjAi/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpq26JtQ/3b2f139100ce3d62b7b3c878e98804fb.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpq26JtQ/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpqyJRJC/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpkR9X0C/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp7Q6mRr/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpIGT9vw/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpVqfV9L/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp2R9M1n/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpz4d5TC/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmphd9ErX/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpgO8zRS/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmppWCNlY/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpROB9TR/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpjJONwu/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpLWzdpp/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp04q9JE/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp4Z2ihy/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpK50F2F/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpRP3y2p/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpt1pnjb/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpjqwjUE/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp7qT5W3/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpJ5_hxE/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpr27oZG/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmphmDVt9/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpUPtIbc/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpTDpSmp/172642badf91e49b79d9ead887ad272c.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpTDpSmp/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmphukbJ0/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpURLtSH/72edbec865fe68cf8a6b61527d62938a.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpURLtSH/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpK_dAR8/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpFV52It/830f46f17490dd03fa369d622483f425.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpFV52It/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpOCoGsp/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp4NPP8e/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpkalK6U/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp2miEHs/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpPHUhPe/55a17f0654b6c65f53d51bc3e4e07820.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpPHUhPe/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpQNLCPd/a0c0d004885b47900367b972585efa2a.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpQNLCPd/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpkbIzPX/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpaHIDRq/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpeRlSwJ/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpLxuNE3/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpar4lMt/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp_8ymIr/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpHlgSDI/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpABTrCt/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpImxU7p/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp0_Au5A/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpaN0kw0/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmph3ZC8R/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpZszFLA/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpHsVy55/e02bc6a0409480408212fb1c78530cae.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpHsVy55/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp2EQETv/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpdZbYHy/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpYkLdRh/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpMAGP0d/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpyOnsTX/0fc80e98cce631ecaa526b69dd28dae1.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpyOnsTX/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpyz5yIo/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpaH91oS/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpycSqEe/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp8JUHIT/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpSKSqff/02066d195ff330e320f3b0caf54a3885.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpSKSqff/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp8KHMdm/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp4GDSTr/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpBOxSwz/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpGlpv7s/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpjEpRFu/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpVdUS87/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpbKKJIB/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpPh4jZS/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp1aw8BU/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpeA1ddj/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmprmbBG1/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmptQFM_M/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpYTDF5T/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpeTrGAd/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpZwS5L8/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpGfKoFc/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpCkN1Sw/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpxkG2f7/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpNCEnVK/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpScBuzU/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpmstza0/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpaYcO3w/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpnYLiHy/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp0Io7ix/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpEwimsE/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpSkr5R5/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmph2pRAY/4cc02e0238f194a57498ade97f45ff52.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmph2pRAY/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpSac1R9/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp8tGBcQ/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpcIwojp/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpead3NV/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp55R38t/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpG8aAVX/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpIDamwP/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpfbhsvy/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpoWZAli/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp0WpxwU/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpFoyImT/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpDgPH1J/d2d9d22486399dcfb0a5abc9e3165af7.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpDgPH1J/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpDpAVKE/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpWQ_S5H/41b6f0d3596009c80b5e5439987a63a2.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpWQ_S5H/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpaHLXYY/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpeNF9mY/2c26bfd2f3394acea9f0d3c5401db824.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpeNF9mY/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpvP2yH7/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp52NXUy/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpO34Nam/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpHyvjFJ/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpnsJVnA/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpTWv7PF/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpIGEki8/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp6FQyrt/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpwv3B_Y/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpz0nM5v/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpHjzHpk/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpNnWAEO/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpPyOO0H/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpWEFUnl/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpLnlRMq/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpYOeb_v/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpZQguBj/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpbyFxd9/7ab8f6fdf53e8150fbc0e30ceed3e549.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpbyFxd9/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpidvW9S/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpn2boKl/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpQI7Gf8/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpYyzffC/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpsYlzZg/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpqIf5WI/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpz6MGGO/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpxqBO30/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpj2BD58/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpP4shz_/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpUWULjZ/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmplKnLvA/af4f54874afbb93e491bc8547d6ca9b6.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmplKnLvA/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp4eP18K/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpk9meev/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpWQI95F/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpIdlIm8/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpMZ7bmi/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpDU7Ddi/259a64255e7ca2eaec3735380a7c8ef3.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpDU7Ddi/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpT6vzng/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpOaNlZG/abb985a535353470fc65c2889c3d9cd2.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpOaNlZG/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpXINYYk/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpvxHEPt/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpMbntdV/161769736105706dcd6db16578ee3ef8.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpMbntdV/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpYIWiEV/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpRIBQoZ/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmphi3URx/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpyXhlSJ/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp9vqFTi/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpJA_ddU/2570bda9d2acb22c7968cce86893effb.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpJA_ddU/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpS1nTSz/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpGXtUMT/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpRDRGI1/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpGMO_us/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpB1Raj7/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp63qdqi/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpZP2bS7/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpi26Mj0/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp87ixzb/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpVKGfRg/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpVHarxf/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp9tFprM/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpZWEuLG/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpRM3_8h/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp06bwWP/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmppHVH6D/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp4xOYTq/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpqRMfTf/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpbY_zKj/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmptbZg7B/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp1AJKFe/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpoTQmRD/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpaSFrSm/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpt_uhgp/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmppYfYpX/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpCmOj1p/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpD8uhWH/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpc0UVj_/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmptnEzNa/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpBj5_Yb/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpKzRr6c/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp1Udt9y/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp475llx/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpSnLOWR/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp7NXJJe/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpVBmhEG/b6302e4bb6050754d61b694cb23f0b2d.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpVBmhEG/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpsc2027/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpPShI5P/834640bef852fe36ade028e56ee499c3.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpPShI5P/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpvRpIJK/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp6OKcMm/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpUzoyDM/a7c164ce4e5580b97f29780898af7381.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpUzoyDM/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpIAx9l5/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp5WxQo7/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp0lKyx8/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpPRaJHF/3e6a4d870880531bd4a418135c7e48d8.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpPRaJHF/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpDbceiE/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp_G_BGF/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpLulLVw/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpuboyLx/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpSNPLK1/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpUViDpQ/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpYL8hY_/f0c70c6cb39edeb753588795195a4f35.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpYL8hY_/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpyeIpLJ/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpqdTXDR/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp1dTlil/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpCeK_52/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp9uzdtP/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpBvw2UK/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp01FuVe/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpkkvA_I/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpxgwBi8/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpETHxDA/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpdMJzub/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp_Hw2Tx/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpoTDLYw/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpC_6Sp_/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpJJ1n_Z/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp6yjA4z/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpwuOJ8o/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpfGKZbE/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmppTkknn/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpdzsPvN/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpRgcSbH/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpB3dFjS/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmphkEvKx/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpSXr8_n/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpZseF6u/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp7F3I_U/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpx8tjJ4/b76777d866aab624e85a816aa3ae5239.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpx8tjJ4/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpi7wIbS/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpNtnBi7/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpaRMALs/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpgj2wJm/dfc289cb7476165496825fa0d115d34e.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpgj2wJm/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpcynEMR/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpqmym19/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpxhUpSl/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpQ63VGo/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpS79P85/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmp3cQowo/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpamXMKu/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpqvHIGa/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpJkBIuu/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmprft4_r/70789e79c5ab5e524224f90e61032a75.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmprft4_r/key.pkl because the corresponding module is gone from the file system.
+A module that was loaded by this ModuleCache can no longer be read from file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpK2iCx0/c8d7bd33dfef61705c2854dd1f0cb7ce.so... this could lead to problems.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpK2iCx0/key.pkl because the corresponding module is gone from the file system.
+Removing key file /mnt/kufs/scratch/okuru13/.theano/compiledir_Linux-2.6-el6.x86_64-x86_64-with-centos-6.5-Final-x86_64-2.7.10-64/tmpfk4bo9/key.pkl because the corresponding module is gone from the file system.
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2     dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  ------
+31.8180        512  adam   sigmoid       0.0001  20.3987        1   512  1024  2048  0.6730  0.3190  0.2551  0.1293
+job returned status: ok
+job returned loss: 31.8179894447
+tpe_transform took 0.014654 seconds
+TPE using 64/64 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+34.5517        256  adam   sigmoid       0.0009  44.7435        0   512  1024        0.1531  0.8763  0.4771
+job returned status: ok
+job returned loss: 34.5517370701
+tpe_transform took 0.015250 seconds
+TPE using 65/65 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr    norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  ------  -------  ----  ----  ----  ------  ------  ------  -----
+30.0626        512  adam   sigmoid       0.0004  7.1311        0  1024  2048        0.1020  0.5582  0.1344
+job returned status: ok
+job returned loss: 30.0625855446
+tpe_transform took 0.015980 seconds
+TPE using 66/66 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr    norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  ------  -------  ----  ----  ----  ------  ------  ------  -----
+30.8033        512  adam   sigmoid       0.0005  4.3307        0  1024  2048        0.1031  0.6938  0.2542
+job returned status: ok
+job returned loss: 30.8033255577
+tpe_transform took 0.013415 seconds
+TPE using 67/67 trials with best loss 29.628292
+   loss    n_batch  opt    activation        lr     norm    bnorm    h1    h2    h3     dr0     dr1     dr2    dr3
+-------  ---------  -----  ------------  ------  -------  -------  ----  ----  ----  ------  ------  ------  -----
+30.5148        512  adam   sigmoid       0.0005  23.8116        0  1024  2048        0.2203  0.6238  0.1450
+job returned status: ok
+job returned loss: 30.5148010254
+tpe_transform took 0.013376 seconds
+TPE using 68/68 trials with best loss 29.628292
